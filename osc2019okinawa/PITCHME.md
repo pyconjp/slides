@@ -105,7 +105,7 @@
 
 * [What's New In Python 3.0](https://docs.python.org/ja/3/whatsnew/3.0.html)
 * [PEP 3105](https://www.python.org/dev/peps/pep-3105/): `print()` 関数
-* [PEP 3106](https://www.python.org/dev/peps/pep-3106/): `dict.keys()`、`.values()`、`.items()` の改良
+* [PEP 3106](https://www.python.org/dev/peps/pep-3106/): `dict.keys()` `.values()` `.items()` の改良
 * [PEP 238](https://www.python.org/dev/peps/pep-0238/): 除算演算子(`/`)の変更
 * [PEP 274](https://www.python.org/dev/peps/pep-0274/): 辞書内包表記
 * セットリテラルとセット内包表記
@@ -116,7 +116,7 @@
 
 * [What's New In Python 3.3](https://docs.python.org/ja/3/whatsnew/3.3.html)
 * [PEP 397](https://www.python.org/dev/peps/pep-0397/): Windows の Python ランチャ
-  * `py`コマンド
+  * `py` コマンド
 * [PEP 405](https://www.python.org/dev/peps/pep-0405/): `venv`モジュール -- 仮想環境
 * [PEP 420](https://www.python.org/dev/peps/pep-0420/): 暗黙的な名前空間パッケージ
 * [PEP 380](https://www.python.org/dev/peps/pep-0380/): サブジェネレータへの委譲構文
@@ -171,7 +171,7 @@
 
 +++
 
-### Python 3.8(2019年10月予定):
+### Python 3.8(2019年10月予定)
 
 * [PEP 572](https://www.python.org/dev/peps/pep-0572/): 代入式
 
@@ -305,7 +305,7 @@ def func():
 
 +++
 
-### `sort`メソッドと`sorted`関数
+### `sort()` メソッドと `sorted()` 関数
 
 * 全バージョン
 
@@ -342,7 +342,7 @@ x = true_value if condition else false_value
 
 +++
 
-### PEP 343: `with`文
+### PEP 343: `with` 文
 
 * 全バージョン
 
@@ -361,7 +361,7 @@ with open('filename.txt') as f:
 
 +++
 
-### `%`、`.format()`、`f`リテラル
+### `%s` / `.format()` / `f` リテラル
 
 * 全バージョン
 
@@ -409,7 +409,7 @@ except Exception as e:
 
 +++
 
-### PEP3105: `print`文と`print()`関数
+### PEP3105: `print` 文と `print()` 関数
 
 * Python 2
 
@@ -425,7 +425,7 @@ print("message")
 
 +++
 
-### PEP238: 除算演算子 `/`と`//`
+### PEP238: 除算演算子 `/` と `//`
 
 * Python 2
 
@@ -447,7 +447,7 @@ print("message")
 
 +++
 
-### PEP 435: `enum`モジュール
+### PEP 435: `enum` モジュール
 
 * Python 3.4以上
 
@@ -466,7 +466,7 @@ class Tast(enum.IntEnum):
 
 +++
 
-### PEP 465: `@`演算子
+### PEP 465: `@` 演算子 -- `a @ b`
 
 ```python
 >>> import numpy as np
@@ -513,7 +513,7 @@ with p.open() as f:
 
 +++
 
-### `os.listdir()``と`pathlib`
+### `os.listdir()` と `pathlib`
 
 * 全バージョン
 
@@ -552,7 +552,7 @@ class InventoryItem:
 
 +++
 
-### PEP 553: `breakpoint()`関数
+### PEP 553: `breakpoint()` 関数
 
 * 全バージョン
 
@@ -568,7 +568,7 @@ breakpoint()
 
 +++
 
-### PEP 572: 代入式 -- `:=`
+### PEP 572: 代入式 -- `a := b`
 
 * 全バージョン
 
