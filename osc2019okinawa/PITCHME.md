@@ -1,6 +1,6 @@
 ## Python言語最新情報
 
-### 〜モダンな文法を知ってPythonを使いこなそう〜
+#### 〜モダンな文法を知ってPythonを使いこなそう〜
 
 2019年4月20日 / OSC沖縄 / 鈴木たかのり
 
@@ -166,3 +166,377 @@
 ### Python 3.8(2019年10月予定):
 
 * [PEP 572](https://www.python.org/dev/peps/pep-0572/): Assignment Expressions
+
+---
+
+## 新旧のスタイルを比較
+
++++
+
+### PEP 328: マルチラインインポート
+
+* 全バージョン
+
+```python
+from module_name import func1, func2, \
+                        func3, func4, \
+                        func5, func6
+```
+
+* Python 2.4以上
+
+```python
+from module_name import (func1, 
+                         func2, 
+                         func3,
+                         func4, 
+                         func5, 
+                         func6)
+```
+
++++
+
+### PEP 202: リスト内包表記(1/3)
+
+```python
+li = []
+for i in range(10):
+    li.append(i * i)
+```
+
+* リスト内包表記
+
+```python
+li = [i * i for i in range(10)]
+```
+
++++
+
+### PEP 202: リスト内包表記(2/3)
+
+```python
+li = []
+for i in range(10):
+    if i % 2 == 0:
+        li.append(i * i)
+```
+
+* リスト内包表記
+
+```python
+li = [i * i for i in range(10) if i % 2 == 0]
+```
+
++++
+
+### PEP 202: リスト内包表記(3/3)
+
+```python
+li = []
+for i in range(10):
+    for j in range(5):
+        li.append(i * j)
+```
+
+* リスト内包表記
+
+```python
+li = [i * j for i in range(10) for j in range(5)]
+```
+
++++
+
+### リスト、辞書、セット内包表記
+
+```python
+>>> [i * i for i in range(10)]  # リスト内包表記
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> {str(i): i * i for i in range(10)}  # 辞書内包表記
+{'0': 0, '1': 1, '2': 4, '3': 9, '4': 16, '5': 25, '6': 36, '7': 49, '8': 64, '9': 81}
+>>> {i * i % 10 for i in range(10)}  # セット内包表記
+{0, 1, 4, 5, 6, 9}
+```
+
++++
+
+### PEP289: ジェネレータ式
+
+* ジェネレータ関数
+
+```python
+def func():
+    for i in range(10):
+        if i % 2 == 0:
+            yield i * 1
+```
+
+* ジェネレータ式
+
+```python
+
+(i * i for i in range(10) if i % 2 == 0)
+```
+
++++
+
+### `sort`メソッドと`sorted`関数
+
+```python
+li = [1, 3, 10, 2, 5]
+li.sort()
+```
+
+* Python 2.4以上(副作用なし)
+
+```
+li = [1, 3, 10, 2, 5]
+new_li = sorted(li)
+```
+
++++
+
+### 条件式
+
+```python
+if condition:
+    x = true_value
+else:
+    x = false_value
+```
+
+* Python 2.5以上
+
+```python
+x = true_value if condition else false_value
+```
+
++++
+
+### `with`文
+
+```python
+f = open('filename.txt')
+data = f.read()
+f.close()
+```
+
+* Python 2.6以上
+
+```python
+with open('filename.txt') as f:
+    data = f.read()
+```
+
++++
+
+### `%`、`.format()`、`f`リテラル
+
+```python
+from datetime import date
+s = "Today: %s" % date.today()
+```
+
+* Python 2.6以上
+
+```python
+from datetime import date
+s = "Today: {}".format(date.today())
+```
+
+* Python 3.6以上
+
+```python
+from datetime import date
+s = f"Today: {date.today()}"
+```
+
++++
+
+### Exception as e
+
+* Python 2
+
+```
+try:
+    1/0
+except Exception, e:
+    return e
+```
+
+* Python 2.6以上
+
+```
+try:
+    1/0
+except Exception as e:
+    return e
+```
+
++++
+
+### `print`文と`print()`関数
+
+* Python 2
+
+```python
+print "message"
+```
+
+* Python 3
+
+```python
+print("message")
+```
+
++++
+
+### 除算演算子: `/`と`//`
+
+* Python 2
+
+```python
+>>> 5 / 2
+2
+>>> 5 / 2.0
+2.5
+```
+
+* Python 3
+
+```python
+>>> 5 / 2
+2.5
+>>> 5 // 2.0
+2
+```
+
++++
+
+### `enum`モジュール
+
+* Python 3.4以上
+
+```
+import enum
+
+class Tast(enum.IntEnum):
+    todo = 1
+    in_progress = 2
+    done = 3
+    
+    @classmethod
+    def get_task_types(cls):
+        return tuple((x.value, x.name) for x in cls)
+```
+
++++
+
+### `@`演算子
+
+```python
+>>> import numpy as np
+>>> a = np.array([[1, 2]])
+>>> b = np.array([[3], [4]])
+```
+
+* Python3.4
+
+```python
+>>> np.dot(a, b)
+array([[11]])
+```
+
+* Python3.5以上
+
+```
+>>> a @ b
+array([[11]])
+```
+
++++
+
+### `pathlib`モジュール
+
+```python
+import os
+current = os.getcwd()
+filepath = os.path.join(current, "dir", "filename.txt")
+with open(filepath) as f:
+    data = f.read()
+```
+
+* Python 3.6以上
+
+```python
+from pathlib import Path
+p = Path(".") / "dir" / "filename.txt"
+with p.open() as f:
+    data = f.read()
+```
+
++++
+
+### `os.listdir()``と`pathlib`
+
+```python
+import os
+for name in os.listdir(PATH):
+    if not name.startswith('.') and os.path.isfile(os.path.join(PATH, name)):
+        print(name)
+```
+
+* Python 3.6以上
+
+```python
+from pathlib import Path
+for entry in Path(PATH).iterdir():
+    if not entry.name.startswith('.') and entry.is_file():
+        print(entry.name)
+```
+
++++
+
+### データクラス
+
+* Python 3.7以上
+
+```python
+@dataclass
+class InventoryItem:
+    name: str
+    unit_price: float
+    quantity_on_hand: int = 0
+
+    def total_cost(self) -> float:
+        return self.unit_price * self.quantity_on_hand
+```
+
++++
+
+### `breakpoint()`関数
+
+```python
+import pdb; pdb.set_trace()
+```
+
+* Python 3.7以上
+
+```python
+breakpoint()
+```
+
+---
+
+## まとめ
+
++++
+
+### まとめ
+
+* いろいろ新しい書き方がある
+* いい感じで進化していると思う
+* 全部を一度に使う必要はないが、少しずつ使いこなしていくと楽
+
+---
+
+## ありがとうございました
