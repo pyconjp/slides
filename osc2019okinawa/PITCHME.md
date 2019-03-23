@@ -64,7 +64,8 @@
 * [PEP 218](https://www.python.org/dev/peps/pep-0218/): ビルトインの集合(`set`)オブジェクト
 * [PEP 289](https://www.python.org/dev/peps/pep-0289/): ジェネレータ式
 * [PEP 318](https://www.python.org/dev/peps/pep-0318/): 関数とメソッドのためのデコレータ
-* [PEP 322](https://www.python.org/dev/peps/pep-0322/): 逆順のイテレーション - `reversed()` 関数
+* [PEP 322](https://www.python.org/dev/peps/pep-0322/): 逆順のイテレーション
+  * `reversed()` 関数
 * [PEP 328](https://www.python.org/dev/peps/pep-0328/): マルチラインインポート
 
 +++
@@ -72,19 +73,20 @@
 ### Python 2.5(2006年)
 
 * [What's New In Python 2.5](https://docs.python.org/ja/3/whatsnew/2.5.html)
-* [PEP 308](https://www.python.org/dev/peps/pep-0308/): 条件式 - `x = true if condition else false`
+* [PEP 308](https://www.python.org/dev/peps/pep-0308/): 条件式
 * [PEP 328](https://www.python.org/dev/peps/pep-0328/): 絶対インポート、相対インポート
-* [PEP 341](https://www.python.org/dev/peps/pep-0341/): try/except/finally の一体化
-* 新モジュール - `ElementTree`、`sqlite3`、`ctypes`など
+* [PEP 341](https://www.python.org/dev/peps/pep-0341/): `try`/`except`/`finally` の一体化
+* 新モジュール - `ElementTree`、`sqlite3`、`ctypes` など
 
 +++
 
 ### Python 2.6(2008年)
 
 * [What's New In Python 2.6](https://docs.python.org/ja/3/whatsnew/2.6.html)
-* [PEP 343](https://www.python.org/dev/peps/pep-0343/): `with`文
+* [PEP 343](https://www.python.org/dev/peps/pep-0343/): `with` 文
 * [PEP 3101](https://www.python.org/dev/peps/pep-3101/): 進化版文字列フォーマッティング
-* [PEP 3110](https://www.python.org/dev/peps/pep-3110/): 例外処理の変更 - `as`キーワード
+* [PEP 3110](https://www.python.org/dev/peps/pep-3110/): 例外処理の変更
+  * `as` キーワード
 * [PEP 3119](https://www.python.org/dev/peps/pep-3119/): 抽象基底クラス
 * [PEP 3129](https://www.python.org/dev/peps/pep-3129/): クラスデコレータ
 
@@ -93,9 +95,9 @@
 ### Python 2.7(2010年)
 
 * [What's New In Python 2.7](https://docs.python.org/ja/3/whatsnew/2.7.html)
-* [PEP 372](https://www.python.org/dev/peps/pep-0372/): `collections`に順序付き辞書を追加
+* [PEP 372](https://www.python.org/dev/peps/pep-0372/): `collections` に順序付き辞書を追加
 * [PEP 378](https://www.python.org/dev/peps/pep-0378/): 1000区切りのための書式指定子
-* [PEP 389](https://www.python.org/dev/peps/pep-0389/): コマンドライン解析のための`argparse`モジュール
+* [PEP 389](https://www.python.org/dev/peps/pep-0389/): コマンドライン解析のための `argparse` モジュール
 
 +++
 
@@ -103,9 +105,9 @@
 
 * [What's New In Python 3.0](https://docs.python.org/ja/3/whatsnew/3.0.html)
 * [PEP 3105](https://www.python.org/dev/peps/pep-3105/): `print()` 関数
-* [PEP 3106](https://www.python.org/dev/peps/pep-3106/): `dict.keys()`、`.values()`、`.items()`の改良
+* [PEP 3106](https://www.python.org/dev/peps/pep-3106/): `dict.keys()`、`.values()`、`.items()` の改良
 * [PEP 238](https://www.python.org/dev/peps/pep-0238/): 除算演算子(`/`)の変更
-* [PEP 274](https://www.python.org/dev/peps/pep-0274/): 辞書内包表記 - `{k: v for k, v in stuff}`
+* [PEP 274](https://www.python.org/dev/peps/pep-0274/): 辞書内包表記
 * セットリテラルとセット内包表記
 
 +++
@@ -113,11 +115,13 @@
 ### Python 3.3(2012年)
 
 * [What's New In Python 3.3](https://docs.python.org/ja/3/whatsnew/3.3.html)
-* [PEP 397](https://www.python.org/dev/peps/pep-0397/): `py`コマンド - Windows の Python ランチャ
-* [PEP 405](https://www.python.org/dev/peps/pep-0405/): `venv`モジュール - 仮想環境
+* [PEP 397](https://www.python.org/dev/peps/pep-0397/): Windows の Python ランチャ
+  * `py`コマンド
+* [PEP 405](https://www.python.org/dev/peps/pep-0405/): `venv`モジュール -- 仮想環境
 * [PEP 420](https://www.python.org/dev/peps/pep-0420/): 暗黙的な名前空間パッケージ
-* [PEP 380](https://www.python.org/dev/peps/pep-0380/): サブジェネレータへの委譲構文 - `yield from`
-* [PEP 414](https://www.python.org/dev/peps/pep-0414/): 明示的なユニコードリテラル - `u'あ'`
+* [PEP 380](https://www.python.org/dev/peps/pep-0380/): サブジェネレータへの委譲構文
+  * `yield from`
+* [PEP 414](https://www.python.org/dev/peps/pep-0414/): 明示的なユニコードリテラル -- `u'あ'`
 
 +++
 
@@ -125,9 +129,12 @@
 
 * [What's New In Python 3.4](https://docs.python.org/ja/3/whatsnew/3.4.html)
 * [PEP 453](https://www.python.org/dev/peps/pep-0453/): Pythonインストール時のPIPの明示的なブートストラッピング
-* [PEP 435](https://www.python.org/dev/peps/pep-0435/): `enum`モジュール - 列挙型のサポート
-* [PEP 428](https://www.python.org/dev/peps/pep-0428/): `pathlib`モジュール - オブジェクト指向のファイルシステムパス
-* [PEP 450](https://www.python.org/dev/peps/pep-0450/): `statistics`モジュール - 基礎的な統計ライブラリ
+* [PEP 435](https://www.python.org/dev/peps/pep-0435/): `enum` モジュール
+  * 列挙型のサポート
+* [PEP 428](https://www.python.org/dev/peps/pep-0428/): `pathlib` モジュール
+  * オブジェクト指向のファイルシステムパス
+* [PEP 450](https://www.python.org/dev/peps/pep-0450/): `statistics` モジュール
+  * 基礎的な統計ライブラリ
 
 +++
 
@@ -135,22 +142,24 @@
 
 * [What's New In Python 3.5](https://docs.python.org/ja/3/whatsnew/3.5.html)
 * [PEP 492](https://www.python.org/dev/peps/pep-0492/): コルーチン、`async`構文と`await`構文
-* [PEP 465](https://www.python.org/dev/peps/pep-0465/): 新たな行列乗算演算子 - `a @ b`
-* [PEP 484](https://www.python.org/dev/peps/pep-0484/): `typing`モジュール - 型ヒント
-* [PEP 441](https://www.python.org/dev/peps/pep-0441/): `zipapp`モジュール - Python ZIPアプリケーションのサポート改善
-* [PEP 471](https://www.python.org/dev/peps/pep-0471/): `os.scandir()`関数 - より良く、速いディレクトリイテレータ
+* [PEP 465](https://www.python.org/dev/peps/pep-0465/): 新たな行列乗算演算子 -- `a @ b`
+* [PEP 484](https://www.python.org/dev/peps/pep-0484/): `typing` モジュール -- 型ヒント
+* [PEP 441](https://www.python.org/dev/peps/pep-0441/): `zipapp` モジュール
+  * Python ZIPアプリケーションのサポート改善
+* [PEP 471](https://www.python.org/dev/peps/pep-0471/): `os.scandir()`関数
+  * より良く、速いディレクトリイテレータ
 
 +++
 
 ### Python 3.6(2016年)
 
 * [What's New In Python 3.6](https://docs.python.org/ja/3/whatsnew/3.6.html)
-* [PEP 498](https://www.python.org/dev/peps/pep-0498/): フォーマット済み文字列リテラル - `f''`
+* [PEP 498](https://www.python.org/dev/peps/pep-0498/): フォーマット済み文字列リテラル -- `f''`
 * [PEP 515](https://www.python.org/dev/peps/pep-0515/): 数値リテラル内のアンダースコア
 * [PEP 526](https://www.python.org/dev/peps/pep-0526/): 変数アノテーションの文法
 * [PEP 525](https://www.python.org/dev/peps/pep-0525/): 非同期(async)ジェネレータ
 * [PEP 530](https://www.python.org/dev/peps/pep-0530/): 非同期(async)内包表記
-* [PEP 506](https://www.python.org/dev/peps/pep-0506/): 標準ライブラリに`Secrets`モジュール追加
+* [PEP 506](https://www.python.org/dev/peps/pep-0506/): 標準ライブラリに `Secrets` モジュール追加
 
 +++
 
@@ -159,13 +168,12 @@
 * [What's New In Python 3.7](https://docs.python.org/ja/3/whatsnew/3.7.html)
 * [PEP 553](https://www.python.org/dev/peps/pep-0553/): `breakpoint()` 関数
 * [PEP 557](https://www.python.org/dev/peps/pep-0557/): データクラス
-* Modify to impliment ssl package
 
 +++
 
 ### Python 3.8(2019年10月予定):
 
-* [PEP 572](https://www.python.org/dev/peps/pep-0572/): Assignment Expressions
+* [PEP 572](https://www.python.org/dev/peps/pep-0572/): 代入式
 
 ---
 
@@ -198,6 +206,8 @@ from module_name import (func1,
 
 ### PEP 202: リスト内包表記(1/3)
 
+* 内包表記なし
+
 ```python
 li = []
 for i in range(10):
@@ -213,6 +223,8 @@ li = [i * i for i in range(10)]
 +++
 
 ### PEP 202: リスト内包表記(2/3)
+
+* 内包表記なし
 
 ```python
 li = []
@@ -231,6 +243,8 @@ li = [i * i for i in range(10) if i % 2 == 0]
 
 ### PEP 202: リスト内包表記(3/3)
 
+* 内包表記なし
+
 ```python
 li = []
 for i in range(10):
@@ -248,12 +262,25 @@ li = [i * j for i in range(10) for j in range(5)]
 
 ### リスト、辞書、セット内包表記
 
+* リスト内包表記
+
 ```python
->>> [i * i for i in range(10)]  # リスト内包表記
+>>> [i * i for i in range(10)]
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
->>> {str(i): i * i for i in range(10)}  # 辞書内包表記
+```
+
+* Python 2.7以上
+* PEP 274: 辞書内包表記
+
+```python
+>>> {str(i): i * i for i in range(10)}
 {'0': 0, '1': 1, '2': 4, '3': 9, '4': 16, '5': 25, '6': 36, '7': 49, '8': 64, '9': 81}
->>> {i * i % 10 for i in range(10)}  # セット内包表記
+```
+
+* セット内包表記
+
+```python
+>>> {i * i % 10 for i in range(10)}
 {0, 1, 4, 5, 6, 9}
 ```
 
@@ -273,13 +300,14 @@ def func():
 * ジェネレータ式
 
 ```python
-
 (i * i for i in range(10) if i % 2 == 0)
 ```
 
 +++
 
 ### `sort`メソッドと`sorted`関数
+
+* 全バージョン
 
 ```python
 li = [1, 3, 10, 2, 5]
@@ -295,7 +323,9 @@ new_li = sorted(li)
 
 +++
 
-### 条件式
+### PEP 308: 条件式
+
+* 全バージョン
 
 ```python
 if condition:
@@ -312,7 +342,9 @@ x = true_value if condition else false_value
 
 +++
 
-### `with`文
+### PEP 343: `with`文
+
+* 全バージョン
 
 ```python
 f = open('filename.txt')
@@ -331,6 +363,8 @@ with open('filename.txt') as f:
 
 ### `%`、`.format()`、`f`リテラル
 
+* 全バージョン
+
 ```python
 from datetime import date
 s = "Today: %s" % date.today()
@@ -344,6 +378,7 @@ s = "Today: {}".format(date.today())
 ```
 
 * Python 3.6以上
+* PEP 498: フォーマット済み文字列リテラル
 
 ```python
 from datetime import date
@@ -352,7 +387,7 @@ s = f"Today: {date.today()}"
 
 +++
 
-### Exception as e
+### PEP 3110: 例外処理の変更
 
 * Python 2
 
@@ -374,7 +409,7 @@ except Exception as e:
 
 +++
 
-### `print`文と`print()`関数
+### PEP3105: `print`文と`print()`関数
 
 * Python 2
 
@@ -390,7 +425,7 @@ print("message")
 
 +++
 
-### 除算演算子: `/`と`//`
+### PEP238: 除算演算子 `/`と`//`
 
 * Python 2
 
@@ -412,7 +447,7 @@ print("message")
 
 +++
 
-### `enum`モジュール
+### PEP 435: `enum`モジュール
 
 * Python 3.4以上
 
@@ -431,7 +466,7 @@ class Tast(enum.IntEnum):
 
 +++
 
-### `@`演算子
+### PEP 465: `@`演算子
 
 ```python
 >>> import numpy as np
@@ -439,7 +474,7 @@ class Tast(enum.IntEnum):
 >>> b = np.array([[3], [4]])
 ```
 
-* Python3.4
+* 全バージョン
 
 ```python
 >>> np.dot(a, b)
@@ -455,7 +490,9 @@ array([[11]])
 
 +++
 
-### `pathlib`モジュール
+### PEP 428: `pathlib` モジュール
+
+* 全バージョン
 
 ```python
 import os
@@ -478,6 +515,8 @@ with p.open() as f:
 
 ### `os.listdir()``と`pathlib`
 
+* 全バージョン
+
 ```python
 import os
 for name in os.listdir(PATH):
@@ -496,7 +535,7 @@ for entry in Path(PATH).iterdir():
 
 +++
 
-### データクラス
+### PEP 557: データクラス
 
 * Python 3.7以上
 
@@ -513,7 +552,9 @@ class InventoryItem:
 
 +++
 
-### `breakpoint()`関数
+### PEP 553: `breakpoint()`関数
+
+* 全バージョン
 
 ```python
 import pdb; pdb.set_trace()
@@ -524,6 +565,26 @@ import pdb; pdb.set_trace()
 ```python
 breakpoint()
 ```
+
++++
+
+### PEP 572: 代入式 -- `:=`
+
+* 全バージョン
+
+```
+m = re.match(pat, s)
+if m:
+    # mに対しての処理
+```
+
+* Python 3.8
+
+```python
+if m := re.match(pat, s):
+    # mに対しての処理
+```
+
 
 ---
 
