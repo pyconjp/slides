@@ -1,6 +1,7 @@
 ### 一般社団法人PyCon JP
 
-* 日本国内のPythonユーザのために、Pythonの普及及び開発支援を行う為に、継続的にカンファレンス(PyCon)を開くことを目的とした非営利組織
+日本国内のPythonユーザのために、Pythonの普及及び開発支援を行う為に、継続的にカンファレンス(PyCon)を開くことを目的とした非営利組織
+
 * https://www.pycon.jp/
 
 ![PyCon JP](assets/images/pyconjp_logo.png)
@@ -22,3 +23,9 @@
 * https://www.pycon.jp/support/bootcamp.html
 
 ![Python Boot Camp](assets/images/python-boot-camp-logo.png)
+
++++
+
+### OSCに初出展
+
+* ぜひブースにも遊びに来てください!

@@ -48,7 +48,7 @@
 * Python Enhancement Proposal
   * Pythonの拡張提案
 * [PEP 1](https://www.python.org/dev/peps/pep-0001/): PEPの目的とガイドライン
-* TODO: PEPとはって説明をする
+* 新機能を提案(Draft)→コミュニティで議論して受理(Accepted)/否認(Receted)→実装→マージして終了(Final)
 
 ---
 
