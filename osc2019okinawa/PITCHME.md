@@ -38,7 +38,7 @@
 
 ## Python開発の歴史
 
-+++?image=assets/images/python-version-graph.png&size=auto&size=90%
++++?image=assets/images/python-version-graph.png&size=auto 90%
 
 +++
 
