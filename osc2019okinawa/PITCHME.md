@@ -38,7 +38,7 @@
 
 ## Python開発の歴史
 
-+++?image=assets/images/python-version-graph.png&size=auto
++++?image=assets/images/python-version-graph.png&size=auto&size=90%
 
 +++
 
@@ -48,7 +48,7 @@
   * Pythonの拡張提案
 * [PEP 1](https://www.python.org/dev/peps/pep-0001/): PEPの目的とガイドライン
   * 新機能を提案(Draft)
-  * →コミュニティで議論して受理(Accepted)/否認(Receted)
+  * →議論して受理(Accepted)/否認(Rejeted)
   * →実装→マージして終了(Final)
 
 ---
