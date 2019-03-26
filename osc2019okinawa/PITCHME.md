@@ -38,11 +38,7 @@
 
 ## Python開発の歴史
 
-+++
-
-### Python開発の歴史
-
-* TODO: ここに図を入れる
++++?image=assets/images/python-version-graph.png&size=auto
 
 +++
 
