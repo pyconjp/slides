@@ -14,6 +14,10 @@
 
 ---?include=assets/takanory.md
 
+---
+
+## かなり久しぶりの沖縄
+
 ---?include=assets/pyconjp.md
 
 ---
