@@ -8,3 +8,15 @@
 * [Pythonボルダリング部(#kabepy)](https://kabepy.connpass.com/) 部長
 
 ![takanory](assets/images/takanory.jpg)
+
++++
+
+### Python本書いてます
+
+![書影](assets/images/takanory-books.png)
+
++++
+
+### 4刷出ました!!!
+
+![4刷Tweet](assets/images/ichiyasa-4suri.png)
