@@ -18,6 +18,10 @@
 
 ## かなり久しぶりの沖縄
 
++++?image=osc2019okinawa/images/jacks-steak.jpg&size=100% auto
+
++++?image=osc2019okinawa/images/beer.jpg&size=100% auto
+
 ---?include=assets/pyconjp.md
 
 ---
