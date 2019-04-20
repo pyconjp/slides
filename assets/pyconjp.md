@@ -15,6 +15,8 @@
   * カンファレンス: 2019年9月16日(月、祝)、17(日)
 * 会場: 大田区産業プラザPiO
 
++++?image=assets/images/pyconjp2019site.png&size=90% auto
+
 +++
 
 ### Python Boot Camp
@@ -29,3 +31,5 @@
 ### OSCに初出展
 
 * ぜひブースにも遊びに来てください!
+
+![PyCon JPブース](assets/images/pyconjp-booth.jpg)
