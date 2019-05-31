@@ -596,7 +596,7 @@ breakpoint()
 
 * 全バージョン
 
-```
+```python
 m = re.match(pat, s)
 if m:
     # mに対しての処理
@@ -611,8 +611,9 @@ if m := re.match(pat, s):
 
 +++
 
-### the "walrus operator", `:=`
+### PEP 572: 代入式 -- `a := b`
 
+* the "walrus operator", `:=`
 * walrus operator = セイウチ演算子
 
 +++
