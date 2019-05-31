@@ -630,7 +630,7 @@ def pow(x, y, z=None, /):
     return r
 ```
 
-```
+```python
 pow(2, 10)  # OK
 pow(2, 10, 17)  # OK
 pow(x=2, y=10)  # NG
@@ -647,6 +647,8 @@ pow(2, 10, z=17)   # NG
 x = 3
 print(f'{x*9 + 15=}')
 ```
+
+* 以下のように出力される
 
 ```
 x*9 + 15=42
