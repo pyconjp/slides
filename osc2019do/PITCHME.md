@@ -2,7 +2,7 @@
 
 #### 〜モダンな文法を知ってPythonを使いこなそう〜
 
-2019年4月20日 / OSC沖縄 / 鈴木たかのり
+2019年6月1日 / OSC北海道 / 鈴木たかのり
 
 ---
 
@@ -12,15 +12,19 @@
 * 徐々に改良されている
 * 最新の書き方を知って、使いこなそう
 
++++
+
+## どんどん質問してください‍🙇‍♂️
+
 ---?include=assets/takanory.md
 
 ---
 
-## かなり久しぶりの沖縄
+## 私と北海道
 
-+++?image=osc2019okinawa/images/jacks-steak.jpg&size=100% auto
++++
 
-+++?image=osc2019okinawa/images/beer.jpg&size=80% auto
+### 北海道釧路市出身
 
 ---?include=assets/pyconjp.md
 
@@ -182,7 +186,10 @@
 
 ### Python 3.8(2019年10月予定)
 
+* [What's New In Python 3.8](https://docs.python.org/ja/3.8/whatsnew/3.8.html)
 * [PEP 572](https://www.python.org/dev/peps/pep-0572/): 代入式
+* [PEP 570](https://www.python.org/dev/peps/pep-0570/):	位置指定のみ引数
+* fリテラルでの `=` によるデバッグ
 
 ---
 
@@ -592,6 +599,49 @@ if m:
 ```python
 if m := re.match(pat, s):
     # mに対しての処理
+```
+
++++
+
+### the "walrus operator", `:=`
+
+* walrus operator = セイウチ演算子
+
++++
+
+### PEP570: 位置指定のみ引数
+
+* Python 3.8
+* `/` の前の引数は位置指定のみ
+
+```python
+def pow(x, y, z=None, /):
+    r = x**y
+    if z is not None:
+        r %= z
+    return r
+```
+
+```
+pow(2, 10)  # OK
+pow(2, 10, 17)  # OK
+pow(x=2, y=10)  # NG
+pow(2, 10, z=17)   # NG
+```
+
++++
+
+### fリテラルでの `=` によるデバッグ
+
+* Python 3.8
+
+```python
+x = 3
+print(f'{x*9 + 15=}')
+```
+
+```
+x*9 + 15=42
 ```
 
 ---
