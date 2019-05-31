@@ -26,6 +26,14 @@
 
 ### 北海道釧路市出身
 
+![北海道](osc2019do/images/hokkaido.png)
+
++++
+
+### 札幌は4年ぶり
+
+* 前回はPyCon mini Sapporo 2015
+
 ---?include=assets/pyconjp.md
 
 ---
