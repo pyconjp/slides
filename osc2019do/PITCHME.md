@@ -40,7 +40,9 @@
 
 +++
 
-## Proposalの締切は6月2日!!!
+## PyCon JPブースにも来てね
+
+![PyCon JPブース](osc2019do/images/pyconjp-booth.jpg)
 
 ---
 

@@ -19,17 +19,13 @@
 
 +++
 
+## Proposalの締切は6月2日!!!
+
++++
+
 ### Python Boot Camp
 
 * 初心者向けPythonチュートリアル
 * https://www.pycon.jp/support/bootcamp.html
 
 ![Python Boot Camp](assets/images/python-boot-camp-logo.png)
-
-+++
-
-### OSCに初出展
-
-* ぜひブースにも遊びに来てください!
-
-![PyCon JPブース](assets/images/pyconjp-booth.jpg)
