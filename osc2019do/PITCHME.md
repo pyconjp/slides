@@ -38,6 +38,10 @@
 
 ---?include=assets/pyconjp.md
 
++++
+
+## Proposalの締切は6月2日!!!
+
 ---
 
 ## 最初に質問
