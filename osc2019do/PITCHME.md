@@ -34,6 +34,8 @@
 
 * 前回はPyCon mini Sapporo 2015
 
++++?image=osc2019do/images/classic.jpg&size=100% contain
+
 ---?include=assets/pyconjp.md
 
 ---
