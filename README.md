@@ -13,7 +13,7 @@
   * 発表者: 鈴木たかのり
 * [ライトニングトーク](https://www.ospn.jp/osc2019-do/modules/eguide/event.php?eid=2)
   * 17:10-18:00
-  * スライド: TBD
+  * スライド: [「Python Boot Camp」であなたの街にPythonコミュニティを作ろう！](https://docs.google.com/presentation/d/1At7EF-Zd-XfSvY7dkhyBE2dwohfHzS09cGDIeD4t844/edit?usp=sharing)
 
 ## オープンソースカンファレンス2019 Okinawa
 
