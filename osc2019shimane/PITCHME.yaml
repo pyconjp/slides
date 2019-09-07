@@ -14,3 +14,4 @@ highlight : tomorrow
 controls-layout : edges
 
 logo : assets/images/pyconjp_logo.png
+logo-position: top-right
