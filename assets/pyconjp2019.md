@@ -15,7 +15,7 @@
 * カンファレンス: 2019年9月16日(月、祝)、17(日)
 * 会場: 大田区産業プラザPiO
 
-+++?image=assets/images/pyconjp2019site.png&size=100% auto
++++?image=assets/images/pyconjp2019site-after.png&size=100% auto
 
 +++
 
