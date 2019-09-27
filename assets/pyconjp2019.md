@@ -19,9 +19,9 @@
 
 +++
 
-## イベントの様子
+## PyCon JP 2019 の様子
 
-* 2019 の写真を紹介する
+* ポスターセッション(左), キーノート(右)
 
 ![PyCon JP 2019 Photo](assets/images/pyconjp2019photo.jpg)
 
