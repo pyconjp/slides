@@ -21,7 +21,9 @@
 
 ## イベントの様子
 
-* *TBD* 2019 の写真を紹介する
+* 2019 の写真を紹介する
+
+![PyCon JP 2019 Photo](assets/images/pyconjp2019photo.jpg)
 
 +++
 

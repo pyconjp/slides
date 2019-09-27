@@ -198,7 +198,6 @@
 * [PEP 572](https://www.python.org/dev/peps/pep-0572/): 代入式
 * [PEP 570](https://www.python.org/dev/peps/pep-0570/):	位置指定のみ引数
 * fリテラルでの `=` によるデバッグ
-* *TBD* 最新情報を確認して更新
 
 ---
 
