@@ -34,13 +34,11 @@
 
 ![松江テルサ](osc2019shimane/images/matsue-terusa.jpg)
 
-+++
-
 ---?include=assets/pyconjp2019.md
 
 +++
 
-## PyCon JPブースにも来てね
+## PyCon JPブースに来てね
 
 ![PyCon JPブース](osc2019shimane/images/pyconjp-booth.jpg)
 
