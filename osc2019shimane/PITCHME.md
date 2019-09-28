@@ -28,10 +28,13 @@
 
 ![出雲空港](osc2019shimane/images/izumo-airport.jpg)
 
++++
+
 ### 私にとっての島根2
 
 ![松江テルサ](osc2019shimane/images/matsue-terusa.jpg)
 
++++
 
 ---?include=assets/pyconjp2019.md
 
@@ -39,7 +42,7 @@
 
 ## PyCon JPブースにも来てね
 
-![PyCon JPブース](images/pyconjp-booth.jpg)
+![PyCon JPブース](osc2019shimane/images/pyconjp-booth.jpg)
 
 ---
 
