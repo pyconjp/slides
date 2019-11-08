@@ -39,9 +39,6 @@
 - 地方のOSCは始めて参加 (地元の千葉を除く)
 
 
----
-
-
 ---?include=assets/pyconjp2019.md
 
 +++
@@ -207,7 +204,7 @@
 
 +++
 
-### Python 3.8(2019年10月予定)
+### Python 3.8(2019年10月)
 
 * [What's New In Python 3.8](https://docs.python.org/ja/3.8/whatsnew/3.8.html)
 * [PEP 572](https://www.python.org/dev/peps/pep-0572/): 代入式
