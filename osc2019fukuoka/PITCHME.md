@@ -2,7 +2,7 @@
 
 #### 〜モダンな文法を知ってPythonを使いこなそう〜
 
-2019年9月28日 / OSC島根 / 清水川貴之
+2019年11月9日 / OSC福岡 / 寺田　学
 
 ---
 
@@ -16,23 +16,31 @@
 
 ## どんどん質問してください‍🙇‍♂️
 
----?include=assets/shimizukawa.md
+---?include=assets/terada.md
 
 ---
 
-## 島根に初めて来ました
+## 昨晩福岡に来ました
 
 +++
 
-### 私にとっての島根1
+### 私にとっての福岡
 
-![出雲空港](osc2019shimane/images/izumo-airport.jpg)
+- 3回目の福岡市
+- 学生時代に九州一周旅行の最後に友達の家を訪問
+- 2018年6月にPyCon Kyusyu in Fukuoka
+
 
 +++
 
-### 私にとっての島根2
+### 私にとってのOSC
 
-![松江テルサ](osc2019shimane/images/matsue-terusa.jpg)
+- 2004年OSC初開催の東京からほぼ毎回参加
+- 地方のOSCは始めて参加 (地元の千葉を除く)
+
+
+---
+
 
 ---?include=assets/pyconjp2019.md
 
@@ -40,7 +48,8 @@
 
 ## PyCon JPブースに来てね
 
-![PyCon JPブース](osc2019shimane/images/pyconjp-booth.jpg)
+![PyCon JPブース](osc2019shimane/images/pyconjp-booth.jpg) #TODO:
+
 
 ---
 
@@ -404,7 +413,7 @@ s = "Today: %s" % date.today()
 
 ```python
 from datetime import date
-s = "Today: {}".format(date.today())
+s = "Today: {0}".format(date.today())
 ```
 
 * Python 3.6以上
