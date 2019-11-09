@@ -54,6 +54,10 @@
 * [Python Boot Camp in 福岡2nd](https://pyconjp.connpass.com/event/143786/)  11月16日(土) 【満員御礼】
 * [Python Boot Camp in 熊本](https://pyconjp.connpass.com/event/143197/)  12月7日(土)
 
+### コミュニケーション用Slackワークスペース
+
+* [PyCon JP Fellow Slack](https://pyconjp-fellow.herokuapp.com/)
+
 ---
 
 ## 最初に質問
