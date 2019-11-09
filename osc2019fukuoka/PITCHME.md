@@ -45,8 +45,14 @@
 
 ## PyCon JPブースに来てね
 
-![PyCon JPブース](osc2019shimane/images/pyconjp-booth.jpg) #TODO:
+![PyCon JPブース](osc2019fukuoka/images/pyconjp-booth-fukuoka.png)
 
++++
+
+## 九州でのPython Boot Camp
+
+* [Python Boot Camp in 福岡2nd](https://pyconjp.connpass.com/event/143786/)  11月16日(土) 【満員御礼】
+* [Python Boot Camp in 熊本](https://pyconjp.connpass.com/event/143197/)  12月7日(土)
 
 ---
 
