@@ -18,8 +18,6 @@
 
 ---?include=assets/takanory.md
 
-+++
-
 ---?include=assets/pyconjp2020.md
 
 +++
@@ -30,12 +28,11 @@
 
 +++
 
-## 関東でのPython Boot Camp
+### 関東でのPython Boot Camp
 
-* [Python Boot Camp in 福岡2nd](https://pyconjp.connpass.com/event/143786/)  11月16日(土) 【満員御礼】
-* [Python Boot Camp in 熊本](https://pyconjp.connpass.com/event/143197/)  12月7日(土)
+* 東京だけ未開催!
 
-### コミュニケーション用Slackワークスペース
+#### コミュニケーション用Slackワークスペース
 
 * [PyCon JP Fellow Slack](https://pyconjp-fellow.herokuapp.com/)
 

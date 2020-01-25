@@ -2,9 +2,8 @@
 
 * 鈴木たかのり / Takanori Suzuki
 * @fab[twitter] [@takanory](https://twitter.com/takanory)
-* [一般社団法人PyCon JP(#pyconjp)](https://www.pycon.jp/) 副代表理事
+* [一般社団法人PyCon JP(`#pyconjp`)](https://www.pycon.jp/) 副代表理事
 * [BeProud](https://www.beproud.jp/) 取締役/Python Climber
-* [Python mini Hack-a-thon(#pyhack)](https://pyhack.connpass.com/) 主催
 * [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html) 講師, [Python mini Hack-a-thon](https://pyhack.connpass.com/) 主催, [Python Bouldering Club](https://kabepy.connpass.com/) 部長など
 
 ![takanory](assets/images/takanory.jpg)
