@@ -3,6 +3,24 @@
 * PyCon JP関連のスライドをまとめるリポジトリ
 * 主に PyCamp Caravan での発表スライドをまとめる
 
+## オープンソースカンファレンス2019 fukuoka
+
+* イベント: [オープンソースカンファレンス2019 Fukuoka](https://www.ospn.jp/osc2019-fukuoka/)
+* 日付: 2019年11月9日(土) 10:00-18:00
+* 発表: [Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～](https://www.ospn.jp/osc2019-fukuoka/modules/eguide/event.php?eid=5)
+  * 時間: 13:00-13:45
+  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2019fukuoka
+  * 発表者: 寺田 学
+
+## オープンソースカンファレンス2019 Hokkaido
+
+* イベント: [オープンソースカンファレンス2019 Shimane](https://www.ospn.jp/osc2019-shimane/)
+* 日付: 2019年9月28日(土) 10:00-17:00
+* 発表: [Python言語最新情報 〜モダンな文法を知ってPythonを使いこなそう〜](https://www.ospn.jp/osc2019-shimane/modules/article/article.php?articleid=2)
+  * 時間: 14:35-15:05
+  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2019shimane
+  * 発表者: 清水川 貴之
+  
 ## オープンソースカンファレンス2019 Hokkaido
 
 * イベント: [オープンソースカンファレンス2019 Hokkaido](https://www.ospn.jp/osc2019-okinawa/)
