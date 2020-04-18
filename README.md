@@ -3,7 +3,20 @@
 * PyCon JP関連のスライドをまとめるリポジトリ
 * 主に PyCamp Caravan での発表スライドをまとめる
 
+
+## オープンソースカンファレンス2020オンライン Spring
+
+* イベント: [オープンソースカンファレンス2020 Tokyo/Spring](https://event.ospn.jp/osc2020-online-spring)
+* 日付: 2020年4月24日(金) 10:00～18:00 / 4月25日(土) 10:00～17:30
+* 発表: Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～
+  * 時間: 24日(金) 16:15 - 17:00
+  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020tokyospring
+  * 発表者: 寺田　学
+
+
 ## オープンソースカンファレンス2020 Tokyo/Spring
+
+** イベントが中止となった **
 
 * イベント: [オープンソースカンファレンス2020 Tokyo/Spring](https://www.ospn.jp/osc2020-spring/)
 * 日付: 2020年2月21日(金) 10:00～18:00 / 2月22日(土) 10:00～17:30
