@@ -5,7 +5,7 @@
 * 以下の手順で環境を作成してJupyter Notebookを起動する
 
 ```sh
-$ python3.6 -m venv env
+$ python3.8 -m venv env
 $ . env/bin/activate
 (env) $ pip install -r requirements.txt
 (env) $ jupyter notebook
