@@ -67,7 +67,7 @@
 
 +++
 
-## python.jpの環境構築ガイド
+## 環境構築ガイド
 
 * [`www.python.jp/install/install`](https://www.python.jp/install/install.html)
 
@@ -229,10 +229,28 @@ $
 * 設定はほぼなし
   * Blackの流儀に合わせる
 
++++
+
 ## Blackをインストール
 
 ```
 $ pip install black
+```
+
++++
+
+## だめなコード
+
+```python
+TODO: だめなコード
+```
+
++++
+
+## Blackを実行
+
+```sh
+$ black hoge.py
 ```
 
 ---
@@ -245,7 +263,8 @@ $ pip install black
 
 * Python公式版
 * venvで仮想環境
-* flake8で静的チェック
+* Flake8で静的チェック
+* Blackでコード整形
 
 ---
 
