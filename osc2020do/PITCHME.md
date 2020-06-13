@@ -55,15 +55,23 @@
 
 ---
 
-## インストール
+## Pythonインストール
 
 +++
 
-## インストール
+## Pythonインストール
 
 * [`www.python.org/downloads`](https://www.python.org/downloads/)から公式版をインストール
 * 最新バージョンは3.8.3
 * 2020年10月に3.9がリリース予定
+
++++
+
+## python.jpの環境構築ガイド
+
+* [`www.python.jp/install/install`](https://www.python.jp/install/install.html)
+
+![python.jpの環境構築ガイド](osc2020do/images/pythonjp-install.png)
 
 +++
 
@@ -125,11 +133,11 @@ $
 
 ---
 
-## 静的チェックツール(flake8)
+## 静的チェックツール(Flake8)
 
 +++
 
-## 静的チェックツール(flake8)
+## 静的チェックツール(Flake8)
 
 * [`flake8.pycqa.org`](https://flake8.pycqa.org/)
 * コードを静的にチェックするコマンド
@@ -153,7 +161,7 @@ $
 
 +++
 
-## flake8をインストール
+## Flake8をインストール
 
 ```
 $ pip install flake8
@@ -169,7 +177,7 @@ TODO: ここにだめなコードを入れる
 
 +++
 
-## flake8を実行
+## Flake8を実行
 
 ```sh
 $ flake8 sample.py
@@ -186,7 +194,7 @@ TODO: きれいになったコード
 
 +++
 
-## flake8を再実行
+## Flake8を再実行
 
 ```sh
 $ flake8 sample.py
@@ -197,7 +205,7 @@ $
 
 +++
 
-## flake8とエディター
+## Flake8とエディター
 
 * 多くのエディターから直接チェックできる
 * PyCharm: External Toolsで設定
@@ -207,16 +215,25 @@ $
 
 ---
 
-## black
+## Black
 
-![black logo](/osc2020do/images/black.png)
+![Black logo](/osc2020do/images/black.png)
 
 +++
 
-## black
+## Black
 
 * [`black.readthedocs.io`](https://black.readthedocs.io/)
-* black自体の説明
+* 頑固なコードフォーマッター
+* PEP8準拠のコードにしてくれる
+* 設定はほぼなし
+  * Blackの流儀に合わせる
+
+## Blackをインストール
+
+```
+$ pip install black
+```
 
 ---
 
