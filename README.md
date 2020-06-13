@@ -4,6 +4,15 @@
 * 主に PyCamp Caravan での発表スライドをまとめる
 
 
+## オープンソースカンファレンス2020 Online/Hokkaido
+
+* イベント: [オープンソースカンファレンス2020 Online/Hokkaido](https://event.ospn.jp/osc2020-online-do/)
+* 日付: 2020年6月27日(土) 10:00～18:00
+* 発表: [TBD](https://event.ospn.jp/osc2020-online-do/session/126701)
+  * 時間: 27日(土) 15:15-16:00
+  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020do
+  * 発表者: 鈴木たかのり
+
 ## オープンソースカンファレンス2020オンライン Spring
 
 * イベント: [オープンソースカンファレンス2020 Tokyo/Spring](https://event.ospn.jp/osc2020-online-spring)
@@ -12,7 +21,6 @@
   * 時間: 24日(金) 16:15 - 17:00
   * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020tokyospring
   * 発表者: 寺田　学
-
 
 ## オープンソースカンファレンス2020 Tokyo/Spring
 

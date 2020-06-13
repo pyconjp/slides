@@ -14,16 +14,8 @@
 
 ![書影](assets/images/takanory-books.png)
 
-+++
+oen	+++?image=assets/images/pycontourmap.jpg&size=auto 90%
 
-## PyCon Tour 2019 🌏
-
-* 2月: PyCon APAC 🇵🇭
-* 5月: US PyCon 🇺🇸
-* 6月: PyCon Thailand 🇹🇭
-* 7月: EuroPython 🇨🇭
-* 8月: PyCon Malaysia 🇲🇾
-* 9月: PyCon Japan 🇯🇵
-* 9月: PyCon Taiwan 🇹🇼
-* 10月: PyCon Singapore 🇸🇬
-* 11月: PyCon Indonesia 🇮🇩
+@snap[south text-04 text-gray]
+[`www.google.com/maps/d/viewer`](https://www.google.com/maps/d/viewer?mid=1El0Gzo-efzH7pBkaFT8nHMwRiVR-1JFI&ll=25.39827248419623%2C156.78839700294202&z=2)
+@snapend
