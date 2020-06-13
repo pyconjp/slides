@@ -1,4 +1,4 @@
-### 一般社団法人 PyCon JP Association
+### 一般社団法人PyCon JP Association
 
 (法人名が、一般社団法人PyCon JPから一般社団法人PyCon JP Associationに変更)
 
@@ -10,7 +10,7 @@
 
 +++
 
-### PyCon JP 2020
+## PyCon JP 2020
 
 - 国内最大のPythonイベント
 - https://pycon.jp/2020/
