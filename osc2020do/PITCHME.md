@@ -36,6 +36,8 @@
 
 ---?include=assets/pyconjp2020.md
 
++++
+
 ## Python Charity Talks
 
 * https://pyconjp.connpass.com/event/177586/
@@ -62,6 +64,7 @@
 ## Pythonインストール
 
 * [`www.python.org/downloads`](https://www.python.org/downloads/)から公式版をインストール
+  * WindowsはPATH設定のチェックを忘れずに
 * 最新バージョンは3.8.3
 * 2020年10月に3.9がリリース予定
 
@@ -77,9 +80,17 @@
 
 ## 他の手段
 
-* anaconda
-* pyenv?
-* Linuxの話する?
+* Anaconda: [`www.anaconda.com`](https://www.anaconda.com/)
+* pyenv: ['github.com/pyenv/pyenv'](https://github.com/pyenv/pyenv)
+* Homebrew: [`brew.sh`](https://brew.sh/)
+* Linux:
+  * Ubuntu 20.04LTS: Python 3.8.2
+  
++++
+
+## Pythonインストール
+
+* 特に理由がなければ公式版を使おう
 
 ---
 
@@ -92,17 +103,31 @@
 * [`docs.python.org/ja/3/library/venv`](https://docs.python.org/ja/3/library/venv.html)
 * Pythonに標準でついてくる
 * 常に使いましょう
-* プロジェクト単位で使用するパッケージを変える
+* プロジェクト単位で使用パッケージを変えられる
+
++++
+
+## venvの概念
+
+* システムのPython
+  * venv1
+    * Django 3.0.7
+  * venv2
+    * Django 2.2.13
 
 +++
 
 ## venv作成、有効化
+
+* macOS、Linux
 
 ```sh
 $ python3.8 -m venv env
 $ . env/bin/activate
 (env) $
 ```
+
+* Windows
 
 ```sh
 > py -3.8 -m venv env
@@ -117,19 +142,54 @@ $ . env/bin/activate
 * パスを書き換えているだけ
 * 削除するときはフォルダーごと削除
 
+```
+$ rm -rf env/
+```
+
 +++
 
 ## venv無効化
+
+* macOS、Linux
 
 ```sh
 (env) $ deactivate
 $
 ```
 
+* Windows
+
 ```sh
 (env) > deactivate
 >
 ```
+
++++
+
+## 仮想環境(venv)
+
+* パッケージをインストールするときは常に使おう
+
+---
+
+## パッケージ管理(pip)
+
++++
+
+## パッケージ管理(pip)
+
+---
+
+## テキストエディター
+
++++
+
+## テキストエディター
+
+* 好きな物を使いましょう
+* とくになければ以下がおすすめ
+  * VSCode: [`code.visualstudio.com`](https://code.visualstudio.com/)
+  * PyCharm: [`www.jetbrains.com/pycharm`](https://www.jetbrains.com/pycharm/)
 
 ---
 
