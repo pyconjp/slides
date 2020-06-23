@@ -133,6 +133,8 @@
 ## venv作成、有効化
 
 * macOS、Linux
+* `python3.8 -m venv 環境名`
+* `. 環境名/bin/activate`
 
 ```sh
 $ python3.8 -m venv env
@@ -140,7 +142,13 @@ $ . env/bin/activate
 (env) $
 ```
 
++++
+
+## venv作成、有効化
+
 * Windows
+* `py -3.8 -m venv env`
+* `env\Scripts\activate.ps1`
 
 ```sh
 > py -3.8 -m venv env
@@ -155,14 +163,11 @@ $ . env/bin/activate
 * パスを書き換えているだけ
 * 削除するときはフォルダーごと削除
 
-```
-$ rm -rf env/
-```
-
 +++
 
 ## venv無効化
 
+* `deactivate`
 * macOS、Linux
 
 ```sh
@@ -297,12 +302,25 @@ soupsieve==2.0.1
 
 +++
 
+## アンインストール
+
+* `pip uninstall -y パッケージ名`
+* 依存パッケージは削除されない
+
+```bash
+(env) $ pip uninstall -y beautifulsoup4
+Found existing installation: beautifulsoup4 4.8.0
+Uninstalling beautifulsoup4-4.8.0:
+  Successfully uninstalled beautifulsoup4-4.8.0
+```
+
++++
+
 ## パッケージの探し方
 
 * Awesome Python: [`awesome-python.com`](https://awesome-python.com/)
 
 ![Awesome Python](osc2020do/images/awesome-python.png)
-
 
 ---
 
