@@ -34,6 +34,17 @@
 
 ---?include=assets/takanory.md
 
++++
+
+## 私と北海道
+
+* 釧路市出身
+* 小中学校は阿寒町
+* 釧路高専出身
+* OCS 2019 Hokkaidoに初参加
+
++++?image=osc2020do/images/osc2010do.jpg&size=100% auto
+
 ---?include=assets/pyconjp2020.md
 
 +++
@@ -47,9 +58,11 @@
 
 +++
 
-## PyCon JP ブース??に来てね
+## ミーティングにも来てね
 
-![PyCon JPブース](Remoで雑談)
+* F会場で16:15〜17:00にセミナーの質疑応答など
+
++++
 
 #### コミュニケーション用 Slack ワークスペース
 
@@ -177,6 +190,33 @@ $
 +++
 
 ## パッケージ管理(pip)
+
+* サードパーティ製パッケージの管理ツール
+* venvの中で使用するのが一般的
+
++++
+
+## PyPI: The Python Package Index
+
+* [`pypi.org`](https://pypi.org/)
+* サードパーティー製パッケージの配布サイト
+
+![PyPI](osc2020do/images/pypi.png)
+
++++
+
+## pipコマンド(インストール)
+
+* 依存パッケージもまとめてインストール
+
+```sh
+(env) $ pip install requests
+Collecting requests
+  Using cached requests-2.24.0-py2.py3-none-any.whl (61 kB)
+...(省略)...
+Installing collected packages: chardet, certifi, urllib3, idna, requests
+Successfully installed certifi-2020.6.20 chardet-3.0.4 idna-2.9 requests-2.24.0 urllib3-1.25.9
+```
 
 ---
 
