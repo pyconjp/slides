@@ -43,7 +43,7 @@
 * 釧路高専出身
 * OCS 2019 Hokkaidoに初参加
 
-+++?image=osc2020do/images/osc2010do.jpg&size=100% auto
++++?image=osc2020do/images/osc2019do.jpg&size=100% auto
 
 ---?include=assets/pyconjp2020.md
 
@@ -196,24 +196,25 @@ $
 
 +++
 
-## PyPI: The Python Package Index
+## PyPI
 
 * [`pypi.org`](https://pypi.org/)
 * サードパーティー製パッケージの配布サイト
+* 「パイピーアイ」と読むらしい
 
 ![PyPI](osc2020do/images/pypi.png)
 
 +++
 
-## pipコマンド(インストール)
+## pipインストール
 
 * 依存パッケージもまとめてインストール
 
-```sh
+```bash
 (env) $ pip install requests
-Collecting requests
-  Using cached requests-2.24.0-py2.py3-none-any.whl (61 kB)
-...(省略)...
+:
+: (省略)
+:
 Installing collected packages: chardet, certifi, urllib3, idna, requests
 Successfully installed certifi-2020.6.20 chardet-3.0.4 idna-2.9 requests-2.24.0 urllib3-1.25.9
 ```
