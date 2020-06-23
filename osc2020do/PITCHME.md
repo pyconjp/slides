@@ -43,7 +43,7 @@
 * 釧路高専出身
 * OCS 2019 Hokkaidoに初参加
 
-+++?image=osc2020do/images/osc2019do.jpg&size=100% auto
++++?image=osc2020do/images/osc2019do.jpg&size=90% auto
 
 ---?include=assets/pyconjp2020.md
 
@@ -202,12 +202,13 @@ $
 * サードパーティー製パッケージの配布サイト
 * 「パイピーアイ」と読むらしい
 
-![PyPI](osc2020do/images/pypi.png)
++++?image=osc2020do/images/pypi.png&size=auto 90%
 
 +++
 
-## pipインストール
+## pipでインストール
 
+* `pip install パッケージ名`
 * 依存パッケージもまとめてインストール
 
 ```bash
@@ -218,6 +219,32 @@ $
 Installing collected packages: chardet, certifi, urllib3, idna, requests
 Successfully installed certifi-2020.6.20 chardet-3.0.4 idna-2.9 requests-2.24.0 urllib3-1.25.9
 ```
+
++++
+
+## pipでインストール
+
+* `pip install requests==2.14.0`: バージョン指定
+* `pip install -U requests`: 最新にアップグレード
+
+```bash
+(env) $ pip install requests==2.14.0
+: (省略)
+      Successfully uninstalled requests-2.24.0
+Successfully installed requests-2.14.0
+(env) $ pip install -U requests
+: (省略)
+Successfully installed requests-2.24.0
+```
+
++++
+
+## パッケージの探し方
+
+* Awesome Python: [`awesome-python.com`](https://awesome-python.com/)
+
+![Awesome Python](osc2020do/images/awesome-python.png)
+
 
 ---
 
