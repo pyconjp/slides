@@ -209,7 +209,7 @@ $
 ## pipでインストール
 
 * `pip install パッケージ名`
-* 依存パッケージもまとめてインストールされる
+* 依存パッケージもまとめてインストール
 
 ```bash
 (env) $ pip install beautifulsoup4
@@ -246,9 +246,8 @@ Successfully installed beautifulsoup4-4.9.1
 ## パッケージ一覧を表示
 
 * `pip list`
-* `pip list -o` で古いパッケージを表示
   
-```
+```bash
 (env) pip install beautifulsoup4==4.8.0
 : (省略)
 (env) $ pip list
@@ -257,17 +256,44 @@ Package        Version
 beautifulsoup4 4.8.0
 setuptools     41.2.0
 soupsieve      2.0.1
+```
+
++++
+
+## 古いパッケージを確認
+
+* `pip list -o`
+  
+```bash
 (env) $ pip list -o
 Package        Version Latest Type
 -------------- ------- ------ -----
 beautifulsoup4 4.8.0   4.9.1  wheel
-setuptools     41.2.0  47.3.1 wheel
+pi psetuptools     41.2.0  47.3.1 wheel
 ```
 
 +++
 
 ## パッケージ一覧を再利用
 
+* `pip freeze > requirements.txt`
+* requirements.txtファイルをバージョン管理
+
+```bash
+(env) $ pip freeze > requirements.txt
+(env) $ cat requirements.txt
+beautifulsoup4==4.8.0
+soupsieve==2.0.1
+```
+
+```bash
+$ python3.8 -m venv newenv
+$ . newenv/bin/activate
+(newenv) $ pip install -r requirements.txt
+(newenv) $  pip freeze
+beautifulsoup4==4.8.0
+soupsieve==2.0.1
+```
 
 +++
 
