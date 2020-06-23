@@ -1,6 +1,4 @@
-## タイトル
-
-#### サブタイトル
+## Python開発環境の整え方
 
 2020年6月27日 / OSC Online/Hokkaido
 
@@ -367,9 +365,7 @@ Uninstalling beautifulsoup4-4.8.0:
 
 ## Flake8をインストール
 
-```
-$ pip install flake8
-```
+* `pip install flake8`
 
 +++
 
@@ -382,6 +378,8 @@ TODO: ここにだめなコードを入れる
 +++
 
 ## Flake8を実行
+
+* `flake8 ファイル名`
 
 ```sh
 $ flake8 sample.py
@@ -437,9 +435,7 @@ $
 
 ## Blackをインストール
 
-```
-$ pip install black
-```
+* `pip install black`
 
 +++
 
@@ -452,6 +448,8 @@ TODO: だめなコード
 +++
 
 ## Blackを実行
+
+* `balck ファイル名`
 
 ```sh
 $ black hoge.py
@@ -467,6 +465,7 @@ $ black hoge.py
 
 * Python公式版
 * venvで仮想環境
+* pipでパッケージ管理
 * Flake8で静的チェック
 * Blackでコード整形
 
