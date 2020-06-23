@@ -209,33 +209,65 @@ $
 ## pipでインストール
 
 * `pip install パッケージ名`
-* 依存パッケージもまとめてインストール
+* 依存パッケージもまとめてインストールされる
 
 ```bash
-(env) $ pip install requests
-:
-: (省略)
-:
-Installing collected packages: chardet, certifi, urllib3, idna, requests
-Successfully installed certifi-2020.6.20 chardet-3.0.4 idna-2.9 requests-2.24.0 urllib3-1.25.9
+(env) $ pip install beautifulsoup4
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.9.1-py3-none-any.whl (115 kB)
+     |████████████████████████████████| 115 kB 2.1 MB/s 
+Collecting soupsieve>1.2
+  Downloading soupsieve-2.0.1-py3-none-any.whl (32 kB)
+Installing collected packages: soupsieve, beautifulsoup4
+Successfully installed beautifulsoup4-4.9.1 soupsieve-2.0.1
 ```
 
 +++
 
 ## pipでインストール
 
-* `pip install requests==2.14.0`: バージョン指定
-* `pip install -U requests`: 最新にアップグレード
+* バージョン指定
+  * `pip install パッケージ名==バージョン`
+* 最新にアップグレード
+  * `pip install -U パッケージ名`
 
 ```bash
-(env) $ pip install requests==2.14.0
+(env) $ pip install beautifulsoup4==4.8.0
 : (省略)
-      Successfully uninstalled requests-2.24.0
-Successfully installed requests-2.14.0
-(env) $ pip install -U requests
+      Successfully uninstalled beautifulsoup4-4.9.1
+Successfully installed beautifulsoup4-4.8.0
+(env) $ pip install -U beautifulsoup4
 : (省略)
-Successfully installed requests-2.24.0
+Successfully installed beautifulsoup4-4.9.1
 ```
+
++++
+
+## パッケージ一覧を表示
+
+* `pip list`
+* `pip list -o` で古いパッケージを表示
+  
+```
+(env) pip install beautifulsoup4==4.8.0
+: (省略)
+(env) $ pip list
+Package        Version
+-------------- ---------
+beautifulsoup4 4.8.0
+setuptools     41.2.0
+soupsieve      2.0.1
+(env) $ pip list -o
+Package        Version Latest Type
+-------------- ------- ------ -----
+beautifulsoup4 4.8.0   4.9.1  wheel
+setuptools     41.2.0  47.3.1 wheel
+```
+
++++
+
+## パッケージ一覧を再利用
+
 
 +++
 
