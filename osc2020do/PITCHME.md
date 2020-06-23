@@ -252,7 +252,6 @@ Successfully installed beautifulsoup4-4.9.1
 : (省略)
 (env) $ pip list
 Package        Version
-------------------------
 beautifulsoup4 4.8.0
 setuptools     41.2.0
 soupsieve      2.0.1
@@ -267,7 +266,6 @@ soupsieve      2.0.1
 ```bash
 (env) $ pip list -o
 Package        Version Latest Type
--------------- ------- ------ -----
 beautifulsoup4 4.8.0   4.9.1  wheel
 setuptools     41.2.0  47.3.1 wheel
 ```
