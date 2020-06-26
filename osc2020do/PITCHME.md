@@ -329,6 +329,12 @@ Uninstalling beautifulsoup4-4.8.0:
 
 ![Awesome Python](osc2020do/images/awesome-python.png)
 
++++
+
+## パッケージ管理(pip)
+
+* pipコマンドを使いこなそう
+
 ---
 
 ## テキストエディター
@@ -441,6 +447,12 @@ $
 * Emacs: flycheck, flymake
 * Vim: vim-flake8
 
++++
+
+## 静的チェック(Flake8)
+
+* Flake8を通るコードにしよう
+
 ---
 
 ## コード整形(Black)
@@ -485,7 +497,7 @@ def add(a,b):
 
 * `black --diff ファイル名`
 
-```sh
+```python
 $ black --diff sample.py
 --- sample.py	2020-06-26 11:20:43.268988 +0000
 +++ sample.py	2020-06-26 11:22:20.716557 +0000
@@ -521,7 +533,63 @@ def add(a, b):
     return a + b
 ```
 
++++
+
+## コード整形(Black)
+
+* Blackでコードを整形しよう
+
 ---
+
+## デバッグ(pdb)
+
++++
+
+## デバッグ(pdb)
+
+* [`docs.python.org/ja/3/library/pdb`](https://docs.python.org/ja/3/library/pdb.html)
+* Pythonの標準ライブラリ
+* 対話型のデバッガ
+
++++
+
+## pdbを起動
+
+* `python3 -m pdb プログラム.py`
+* `breakpoint()` 関数
+
+```bash
+$ python3 -m pdb sample.py
+/path/to/sample.py(1)<module>()
+-> from random import choice
+(Pdb) n
+/path/to/sample.py(4)<module>()
+-> def add(a, b):
+```
+
++++
+
+## pdbの主なコマンド
+
+* `h(elp)`: ヘルプを表示
+* `b(reak) 行番号`: ブレイクポイントを設定
+* `n(ext)`: 次の行に移動
+* `c(ont(inue))`: ブレイクポイントまで実行
+* `l(ist)`: コードを表示
+* `p 式`: 式を評価した結果を出力
+* `q(uit)`: デバッガを終了
+
++++
+
+## デバッグ(pdb)
+
+* `print()` デバッグより効率的
+
+---
+
+## その他
+
++++
 
 ## その他
 
@@ -529,10 +597,6 @@ def add(a, b):
 * テスト環境: [tox](https://tox.readthedocs.io/en/latest/)
 * 型ヒント: [typing](https://docs.python.org/ja/3/library/typing.html)
 * 型ヒントチェック: [mypy](http://www.mypy-lang.org/)
-
-+++
-
-## その他
 
 ---
 
@@ -545,8 +609,10 @@ def add(a, b):
 * Python公式版
 * venvで仮想環境
 * pipでパッケージ管理
+* テキストエディター
 * Flake8で静的チェック
 * Blackでコード整形
+* pdbでデバッグ
 
 ---
 
