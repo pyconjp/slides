@@ -56,12 +56,12 @@
 
 ## Python Charity Talks
 
-* https://pyconjp.connpass.com/event/177586/
+* [`pyconjp.connpass.com/event/177586`](https://pyconjp.connpass.com/event/177586/)
 * 2020年7月4日(土) 13:00-18:00
 * オンラインイベント
 * 全額Python Software Foundation(PSF)に寄付
 
-+++?image=osc2020do/images/pycharity.png&size=auto 90%
++++?image=osc2020do/images/pycharity.png&size=auto 100%
 
 +++
 
@@ -213,7 +213,7 @@ $
 * サードパーティー製パッケージの配布サイト
 * 「パイピーアイ」と読むらしい
 
-+++?image=osc2020do/images/pypi.png&size=auto 90%
++++?image=osc2020do/images/pypi.png&size=auto 100%
 
 +++
 
@@ -383,7 +383,11 @@ Uninstalling beautifulsoup4-4.8.0:
 ## だめなコード
 
 ```python
-TODO: ここにだめなコードを入れる
+from random import *
+
+def add(a,b):
+    c = choice([a, b]) # 意味のない処理
+    return a + b
 ```
 
 +++
@@ -394,7 +398,12 @@ TODO: ここにだめなコードを入れる
 
 ```sh
 $ flake8 sample.py
-TODO: ここにエラーメッセージ
+sample.py:1:1: F403 'from random import *' used; unable to detect undefined names
+sample.py:3:1: E302 expected 2 blank lines, found 1
+sample.py:3:10: E231 missing whitespace after ','
+sample.py:4:5: F841 local variable 'c' is assigned to but never used
+sample.py:4:9: F405 'choice' may be undefined, or defined from star imports: random
+sample.py:4:23: E261 at least two spaces before inline comment
 ```
 
 +++
@@ -402,19 +411,24 @@ TODO: ここにエラーメッセージ
 ## コードをきれいにする
 
 ```python
-TODO: きれいになったコード
+from random import choice
+
+
+def add(a, b):
+    c = choice([a, b])  # 意味のない処理
+    return a + b, c
 ```
 
 +++
 
 ## Flake8を再実行
 
+* エラーメッセージが出なくなった!!
+
 ```sh
 $ flake8 sample.py
 $
 ```
-
-* エラーメッセージが出なくなった!!
 
 +++
 
@@ -458,17 +472,53 @@ $
 ## だめなコード
 
 ```python
-TODO: だめなコード
+from random import *
+
+def add(a,b):
+    c = choice([a, b]) # 意味のない処理
+    return a + b
 ```
 
 +++
 
-## Blackを実行
+## Blackで差分を確認
 
-* `balck ファイル名`
+* `black --diff ファイル名`
 
 ```sh
-$ black hoge.py
+$ black --diff sample.py
+--- sample.py	2020-06-26 11:20:43.268988 +0000
++++ sample.py	2020-06-26 11:22:20.716557 +0000
+@@ -1,6 +1,7 @@
+ from random import *
+ 
+-def add(a,b):
+-    c = choice([a, b]) # 意味のない処理
++
++def add(a, b):
++    c = choice([a, b])  # 意味のない処理
+     return a + b
+ 
+reformatted sample.py
+All done! ✨ 🍰 ✨
+1 file reformatted.
+```
+
++++
+
+## Blackでファイルを更新
+
+* `black ファイル名`
+
+```sh
+$ black sample.py
+$ cat sample.py
+from random import *
+
+
+def add(a, b):
+    c = choice([a, b])  # 意味のない処理
+    return a + b
 ```
 
 ---
