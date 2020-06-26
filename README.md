@@ -8,7 +8,7 @@
 
 * イベント: [オープンソースカンファレンス2020 Online/Hokkaido](https://event.ospn.jp/osc2020-online-do/)
 * 日付: 2020年6月27日(土) 10:00～18:00
-* 発表: [TBD](https://event.ospn.jp/osc2020-online-do/session/126701)
+* 発表: [Python開発環境の整え方](https://event.ospn.jp/osc2020-online-do/session/126701)
   * 時間: 27日(土) 15:15-16:00
   * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020do
   * 発表者: 鈴木たかのり
