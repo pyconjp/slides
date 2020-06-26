@@ -491,30 +491,11 @@ def add(a,b):
     return a + b
 ```
 
-+++
++++?code=osc2020do/diff.txt&lang=bash
 
 ## Blackで差分を確認
 
 * `black --diff ファイル名`
-
-```python
-$ black --diff sample.py
---- sample.py	2020-06-26 11:20:43.268988 +0000
-+++ sample.py	2020-06-26 11:22:20.716557 +0000
-@@ -1,6 +1,7 @@
- from random import *
- 
--def add(a,b):
--    c = choice([a, b]) # 意味のない処理
-+
-+def add(a, b):
-+    c = choice([a, b])  # 意味のない処理
-     return a + b
- 
-reformatted sample.py
-All done! ✨ 🍰 ✨
-1 file reformatted.
-```
 
 +++
 
