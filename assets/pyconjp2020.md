@@ -1,7 +1,6 @@
-### 一般社団法人PyCon JP Association
+#### 一般社団法人PyCon JP Association
 
-> 日本国内のPythonユーザのために、Python の普及及び開発支援を行う為に、継続的にカンファレンス(PyCon)を開くことを目的とした非営利組織
-
+* 日本国内のPythonユーザのために、Python の普及及び開発支援を行う為に、継続的にカンファレンス(PyCon)を開くことを目的とした非営利組織
 * [`www.pycon.jp`](https://www.pycon.jp/)
 
 ![PyCon JP](assets/images/pyconjp_logo.png)
