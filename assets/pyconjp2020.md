@@ -5,7 +5,7 @@
 
 ![PyCon JP](assets/images/pyconjp_logo.png)
 
-@snap[south text-04 text-gray]
+@snap[south text-04 text-gray span-100]
 (法人名が、一般社団法人PyCon JPから一般社団法人PyCon JP Associationに変更)
 @snapend
 
