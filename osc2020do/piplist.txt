@@ -1,4 +1,4 @@
-(env) pip install beautifulsoup4==4.8.0
+(env) $ pip install beautifulsoup4==4.8.0
 : (省略)
 (env) $ pip list
 Package        Version

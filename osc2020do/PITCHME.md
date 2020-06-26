@@ -390,6 +390,12 @@ def add(a,b):
 * `flake8 ファイル名`
 
 ```sh
+$ cat sample.py
+from random import *
+
+def add(a,b):
+    c = choice([a, b]) # 意味のない処理
+    return a + b
 $ flake8 sample.py
 sample.py:1:1: F403 'from random import *' used; unable to detect undefined names
 sample.py:3:1: E302 expected 2 blank lines, found 1
