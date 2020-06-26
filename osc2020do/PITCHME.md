@@ -252,34 +252,21 @@ Successfully installed beautifulsoup4-4.8.0
 Successfully installed beautifulsoup4-4.9.1
 ```
 
-+++
++++?code=osc2020do/piplist.txt&lang=bash
 
+@snap[north span-100]
 ## パッケージ一覧を表示
 
 * `pip list`
-  
-```bash
-(env) pip install beautifulsoup4==4.8.0
-: (省略)
-(env) $ pip list
-Package        Version
-beautifulsoup4 4.8.0
-setuptools     41.2.0
-soupsieve      2.0.1
-```
+@snapend
 
-+++
++++?code=osc2020do/piplist-o.txt&lang=bash
 
+@snap[north span-100]
 ## 古いパッケージを確認
 
 * `pip list -o`
-  
-```bash
-(env) $ pip list -o
-Package        Version Latest Type
-beautifulsoup4 4.8.0   4.9.1  wheel
-setuptools     41.2.0  47.3.1 wheel
-```
+@snapend
 
 +++
 
@@ -495,8 +482,6 @@ def add(a,b):
 
 @snap[north span-100]
 ## Blackで差分を確認
-
-* `black --diff ファイル名`
 @snapend
 
 +++
