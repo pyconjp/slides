@@ -523,6 +523,19 @@ def add(a, b):
 
 ---
 
+## その他
+
+* テストコード: [unittest](https://docs.python.org/ja/3/library/unittest.html), [pytest](https://docs.pytest.org/)
+* テスト環境: [tox](https://tox.readthedocs.io/en/latest/)
+* 型ヒント: [typing](https://docs.python.org/ja/3/library/typing.html)
+* 型ヒントチェック: [mypy](http://www.mypy-lang.org/)
+
++++
+
+## その他
+
+---
+
 ## まとめ
 
 +++
