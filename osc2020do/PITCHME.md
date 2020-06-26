@@ -12,7 +12,7 @@
 
 * Pythonの環境について
 * 開発環境を整える方法
-* その他
+* デバッグ方法
 
 ---
 
@@ -41,9 +41,16 @@
 * 釧路高専出身
 * OCS 2019 Hokkaidoに初参加
 
-+++?image=osc2020do/images/osc2019do.jpg&size=90% auto
++++?image=osc2020do/images/osc2019do.jpg&size=auto 90%
 
 ---?include=assets/pyconjp2020.md
+
++++
+
+### コミュニケーション用Slack
+
+* PyCon JP Fellow Slack
+* [`pyconjp-fellow.herokuapp.com`](https://pyconjp-fellow.herokuapp.com/)
 
 +++
 
@@ -52,19 +59,24 @@
 * https://pyconjp.connpass.com/event/177586/
 * 2020年7月4日(土) 13:00-18:00
 * オンラインイベント
-* 参加費は全額Python Software Foundation(PSF)に寄付
+* 全額Python Software Foundation(PSF)に寄付
+
++++?image=osc2020do/images/pycharity.png&size=auto 90%
 
 +++
 
 ## ミーティングにも来てね
 
-* F会場で16:15〜17:00にセミナーの質疑応答など
+* F会場で16:15〜17:00
+* セミナーの質疑応答など
 
-+++
+---
 
-#### コミュニケーション用 Slack ワークスペース
+## Python開発環境の整え方
 
-- [PyCon JP Fellow Slack](https://pyconjp-fellow.herokuapp.com/)
+* Pythonの環境について
+* 開発環境を整える方法
+* デバッグ方法
 
 ---
 
@@ -92,7 +104,7 @@
 ## 他の手段
 
 * Anaconda: [`www.anaconda.com`](https://www.anaconda.com/)
-* pyenv: ['github.com/pyenv/pyenv'](https://github.com/pyenv/pyenv)
+* pyenv: [`github.com/pyenv/pyenv`](https://github.com/pyenv/pyenv)
 * Homebrew: [`brew.sh`](https://brew.sh/)
 * Linux:
   * Ubuntu 20.04LTS: Python 3.8.2
@@ -131,12 +143,12 @@
 ## venv作成、有効化
 
 * macOS、Linux
-* `python3.8 -m venv 環境名`
-* `. 環境名/bin/activate`
+  * `python3.8 -m venv 環境名`
+  * `source 環境名/bin/activate`
 
 ```sh
 $ python3.8 -m venv env
-$ . env/bin/activate
+$ source env/bin/activate
 (env) $
 ```
 
@@ -145,8 +157,9 @@ $ . env/bin/activate
 ## venv作成、有効化
 
 * Windows
-* `py -3.8 -m venv env`
-* `env\Scripts\activate.ps1`
+  * `py -3.8 -m venv 環境名`
+  * `環境名\Scripts\activate.ps1`
+  * `環境名\Scripts\activate.bat`
 
 ```sh
 > py -3.8 -m venv env
@@ -166,16 +179,11 @@ $ . env/bin/activate
 ## venv無効化
 
 * `deactivate`
-* macOS、Linux
 
 ```sh
 (env) $ deactivate
 $
-```
 
-* Windows
-
-```sh
 (env) > deactivate
 >
 ```
@@ -288,12 +296,13 @@ soupsieve==2.0.1
 ```
 
 * 別の仮想環境でインストール
+  * `pip install -r requirements.txt`
 
 ```bash
 $ python3.8 -m venv newenv
-$ . newenv/bin/activate
+$ source newenv/bin/activate
 (newenv) $ pip install -r requirements.txt
-(newenv) $  pip freeze
+(newenv) $ pip freeze
 beautifulsoup4==4.8.0
 soupsieve==2.0.1
 ```
@@ -329,17 +338,19 @@ Uninstalling beautifulsoup4-4.8.0:
 ## テキストエディター
 
 * 好きな物を使いましょう
+  * シンタックスハイライト
+  * TABでスペース4つ
 * とくになければ以下がおすすめ
   * VSCode: [`code.visualstudio.com`](https://code.visualstudio.com/)
   * PyCharm: [`www.jetbrains.com/pycharm`](https://www.jetbrains.com/pycharm/)
 
 ---
 
-## 静的チェックツール(Flake8)
+## 静的チェック(Flake8)
 
 +++
 
-## 静的チェックツール(Flake8)
+## 静的チェック(Flake8)
 
 * [`flake8.pycqa.org`](https://flake8.pycqa.org/)
 * コードを静的にチェックするコマンド
@@ -412,18 +423,23 @@ $
 * 多くのエディターから直接チェックできる
 * PyCharm: External Toolsで設定
 * VSCode: Python Extension→設定変更
+  * デフォルトのPylintは制限が強い
 * Emacs: flycheck, flymake
 * Vim: vim-flake8
 
 ---
 
-## Black
+## コード整形(Black)
+
++++
+
+## コード整形(Black)
 
 ![Black logo](/osc2020do/images/black.png)
 
 +++
 
-## Black
+## コード整形(Black)
 
 * [`black.readthedocs.io`](https://black.readthedocs.io/)
 * 頑固なコードフォーマッター
