@@ -493,7 +493,7 @@ def add(a,b):
 
 +++?code=osc2020do/diff.txt&lang=bash
 
-@[snap span-100]
+@snap[north span-100]
 ## Blackで差分を確認
 
 * `black --diff ファイル名`
