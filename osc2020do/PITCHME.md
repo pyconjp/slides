@@ -34,9 +34,9 @@
 
 ---?include=assets/takanory.md
 
-+++?images=osc2020do/images/hokkaido.png&position=bottom&size=auto 50%
++++?image=osc2020do/images/hokkaido.png&position=bottom&size=auto 50%
 
-@snap[north span=100]
+@snap[north span-100]
 ## 私と北海道
 
 * 釧路市出身
@@ -45,7 +45,7 @@
 * OCS 2019 Hokkaidoに初参加
 @snapend
 
-+++?image=osc2020do/images/osc2019do.jpg
++++?image=osc2020do/images/osc2019do.jpg&size=auto 90%
 
 ---?include=assets/pyconjp2020.md
 
