@@ -34,18 +34,18 @@
 
 ---?include=assets/takanory.md
 
-+++
++++?images=osc2020do/images/hokkaido.png&position=bottom&size=auto 50%
 
+@snap[north span=100]
 ## 私と北海道
 
 * 釧路市出身
 * 小中学校は阿寒町
 * 釧路高専出身
 * OCS 2019 Hokkaidoに初参加
+@snapend
 
-![北海道](osc2020do/images/hokkaido.png)
-
-+++?image=osc2020do/images/osc2019do.jpg&size=auto 90%
++++?image=osc2020do/images/osc2019do.jpg
 
 ---?include=assets/pyconjp2020.md
 
