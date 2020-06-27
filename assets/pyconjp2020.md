@@ -35,3 +35,5 @@
 - [`www.pycon.jp/support/bootcamp`](https://www.pycon.jp/support/bootcamp.html)
 
 ![Python Boot Camp](assets/images/python-boot-camp-logo.png)
+
++++?image=assets/images/pycamp.png&size=auto 100%

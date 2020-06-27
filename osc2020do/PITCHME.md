@@ -30,7 +30,8 @@
 
 ## どんどん質問してください ‍🙇‍♂️
 
-* Zoomのチャットに書き込んでください
+* Zoomのチャット
+* YouTubeのコメント
 
 ---?include=assets/takanory.md
 
@@ -95,6 +96,8 @@
 * 最新バージョンは3.8.3
 * 2020年10月に3.9がリリース予定
 
++++?image=osc2020do/images/python-downloads.png&size=auto 100%
+
 +++
 
 ## 環境構築ガイド
@@ -131,6 +134,8 @@
 * Pythonに標準でついてくる
 * 常に使いましょう
 * プロジェクト単位で使用パッケージを変えられる
+
++++?image=osc2020do/images/venv.png&size=auto 100%
 
 +++
 
@@ -364,8 +369,8 @@ Uninstalling beautifulsoup4-4.8.0:
   * [`pep8-ja.readthedocs.io`](https://pep8-ja.readthedocs.io/): 日本語訳
 * Python標準のスタイルガイド
 * 主なルール
-  * インデント4つ
-  * 1行の最大文字数
+  * インデントはスペース4つ
+  * 1行の最大文字数は79文字
   * 空行の入れ方
   * スペースの入れ方
 
