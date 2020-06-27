@@ -346,6 +346,10 @@ Uninstalling beautifulsoup4-4.8.0:
   * VSCode: [`code.visualstudio.com`](https://code.visualstudio.com/)
   * PyCharm: [`www.jetbrains.com/pycharm`](https://www.jetbrains.com/pycharm/)
 
++++?image=osc2020do/images/vscode.png&size=auto 100%
+
++++?image=osc2020do/images/pycharm.png&size=auto 100%
+
 ---
 
 ## 静的チェック(Flake8)
@@ -360,6 +364,8 @@ Uninstalling beautifulsoup4-4.8.0:
   * [pyflakes](https://pypi.org/project/pyflakes/): エラーが発生しそうなコードをチェック
   * [mccabe](https://pypi.org/project/mccabe/): 循環的複雑度のチェック
 
++++?image=osc2020do/images/flake8.png&size=auto 100%
+
 +++
 
 ## PEP8
@@ -373,6 +379,10 @@ Uninstalling beautifulsoup4-4.8.0:
   * 1行の最大文字数は79文字
   * 空行の入れ方
   * スペースの入れ方
+
++++?image=osc2020do/images/pep8.png&size=auto 100%
+
++++?image=osc2020do/images/pep8-ja.png&size=auto 100%
 
 +++
 
@@ -475,6 +485,8 @@ $
 * 設定はほぼなし
   * Blackの流儀に合わせる
 
++++?image=osc2020do/images/black-web.png&size=auto 100%
+
 +++
 
 ## Blackをインストール
@@ -533,6 +545,8 @@ def add(a, b):
 * [`docs.python.org/ja/3/library/pdb`](https://docs.python.org/ja/3/library/pdb.html)
 * Pythonの標準ライブラリ
 * 対話型のデバッガ
+
++++?image=osc2020do/images/pdb.png&size=auto 100%
 
 +++
 
