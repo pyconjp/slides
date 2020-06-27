@@ -30,6 +30,8 @@
 
 ## どんどん質問してください ‍🙇‍♂️
 
+* Zoomのチャットに書き込んでください
+
 ---?include=assets/takanory.md
 
 +++
@@ -40,6 +42,8 @@
 * 小中学校は阿寒町
 * 釧路高専出身
 * OCS 2019 Hokkaidoに初参加
+
+![北海道](os2020do/images/hokkaido.png)
 
 +++?image=osc2020do/images/osc2019do.jpg&size=auto 90%
 
