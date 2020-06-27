@@ -18,7 +18,7 @@
 
 ## Tweets 🐦 👍
 
-`#osc2020do` / `@takanory`
+`#osc20do` / `@takanory`
 
 +++
 
@@ -592,8 +592,24 @@ $ python3 -m pdb sample.py
 
 ## ありがとうございました 🙇‍♂️
 
----
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
+* @fab[github] [`github.com/pyconjp/slides`](https://github.com/pyconjp/slides)
+
++++
+
+## ミーティングにも来てね
+
+* F会場で16:15〜17:00
+* セミナーの質疑応答など
+
++++
 
 ## Question?
 
++++
+
+## ありがとうございました 🙇‍♂️
+
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
+* @fab[github] [`github.com/pyconjp/slides`](https://github.com/pyconjp/slides)
 
