@@ -43,7 +43,7 @@
 * 釧路高専出身
 * OCS 2019 Hokkaidoに初参加
 
-![北海道](os2020do/images/hokkaido.png)
+![北海道](osc2020do/images/hokkaido.png)
 
 +++?image=osc2020do/images/osc2019do.jpg&size=auto 90%
 
