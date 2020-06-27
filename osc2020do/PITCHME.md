@@ -211,8 +211,11 @@ $
 
 ## パッケージ管理(pip)
 
+* [`pip.pypa.io`](https://pip.pypa.io/en/stable/)
 * サードパーティ製パッケージの管理ツール
 * venvの中で使用するのが一般的
+
++++?image=osc2020do/images/pip.png&size=auto 100%
 
 +++
 
