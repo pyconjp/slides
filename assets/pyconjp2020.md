@@ -24,7 +24,7 @@
 
 - クロージング後の集合写真
 
-![PyCon JP 2020 Photo](assets/images/pyconjp2020photo.jpg)
+![PyCon JP 2020 Photo](assets/images/pyconjp2020photo.png)
 
 +++
 
