@@ -17,15 +17,14 @@
 - [`pycon.jp/2020`](https://pycon.jp/2020/)
 - カンファレンス: 2020年8月28日(金)、29日(土)
 - 会場: オンライン
-- スタッフ、スポンサー募集中
 
 +++
 
-## PyCon JP 2019の様子
+## PyCon JP 2020の様子
 
-- ポスターセッション(左)、キーノート(右)
+- クロージング後の集合写真
 
-![PyCon JP 2019 Photo](assets/images/pyconjp2019photo.jpg)
+![PyCon JP 2020 Photo](assets/images/pyconjp2020photo.jpg)
 
 +++
 

@@ -13,5 +13,5 @@
 
 ### Python本書いてます
 
-![書影](assets/images/shimizukawa-books.png)
+![書影](assets/images/shimizukawa-books-2020.png)
 

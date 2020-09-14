@@ -1,6 +1,6 @@
 ## Python開発環境の整え方
 
-2020年9月14日 / OSC Online/Hiroshima
+2020年9月19日 / OSC Online/Hiroshima
 
 清水川貴之
 
@@ -35,15 +35,13 @@
 
 ---?include=assets/shimizukawa.md
 
-+++?image=osc2020hiro/images/hokkaido.png&position=bottom&size=auto 50%
++++?image=osc2020hiro/images/hiroshima.png&position=bottom&size=auto 50%
 
 @snap[north span-100]
 ## 私と広島
 
 * OCS 2020 Hiroshimaに初参加
 @snapend
-
-+++?image=osc2020hiro/images/osc2019do.jpg&size=auto 90%
 
 ---?include=assets/pyconjp2020.md
 
@@ -69,7 +67,7 @@
 
 ## ミーティングにも来てね
 
-* F会場で16:15〜17:00
+* C会場で14:00〜14:45
 * セミナーの質疑応答など
 
 ---
@@ -90,7 +88,7 @@
 
 * [`www.python.org/downloads`](https://www.python.org/downloads/)から公式版をインストール
   * WindowsはPATH設定のチェックを忘れずに
-* 最新バージョンは3.8.3
+* 最新バージョンは3.8.5
 * 2020年10月に3.9がリリース予定
 
 +++?image=osc2020hiro/images/python-downloads.png&size=auto 100%
@@ -622,7 +620,7 @@ $ python3 -m pdb sample.py
 
 ## ミーティングにも来てね
 
-* F会場で16:15〜17:00
+* C会場で14:00〜14:45
 * セミナーの質疑応答など
 
 +++
