@@ -3,7 +3,7 @@
 * 清水川貴之 / SHIMIZUKAWA Takayuki
 * Twitter: [@shimizukawa](https://twitter.com/shimizukawa)
 * [一般社団法人PyCon JP(#pyconjp)](https://www.pycon.jp/) 会計理事
-* [株式会社BeProud](https://www.beproud.jp/) 取締役
+* [株式会社BeProud](https://www.beproud.jp/) 取締役/IT Architect
 * [Python mini Hack-a-thon(#pyhack)](https://pyhack.connpass.com/) 主催
 * [Sphinx(Pythonドキュメントツール)](https://sphinx-doc.org/) メンテナ
 

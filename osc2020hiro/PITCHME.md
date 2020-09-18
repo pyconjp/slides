@@ -40,7 +40,9 @@
 @snap[north span-100]
 ## 私と広島
 
-* OCS 2020 Hiroshimaに初参加
+* OCS 2020 Hiroshima に初参加
+* 初広島！（論理）
+
 @snapend
 
 ---?include=assets/pyconjp2020.md
