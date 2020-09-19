@@ -35,7 +35,7 @@
 
 ---?include=assets/shimizukawa.md
 
-+++?image=osc2020hiro/images/hiroshima.png&position=bottom&size=auto 55%
++++?image=osc2020hiro/images/hiroshima.png&position=bottom&size=auto 58%
 
 @snap[north span-100]
 ## 私と広島
