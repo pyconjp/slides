@@ -42,7 +42,6 @@
 
 * OCS 2020 Hiroshima に初参加
 * 初広島！（論理）
-
 @snapend
 
 ---?include=assets/pyconjp2020.md
