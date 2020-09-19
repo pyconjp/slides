@@ -35,14 +35,13 @@
 
 ---?include=assets/shimizukawa.md
 
-+++?image=osc2020hiro/images/hiroshima.png&position=bottom&size=auto 70%
 
-@snap[north span-100]
 ## 私と広島
 
 * OCS 2020 Hiroshima に初参加
 * 初広島！（論理）
-@snapend
+
+![Swarm](osc2020hiro/images/hiroshima.png)
 
 ---?include=assets/pyconjp2020.md
 
