@@ -35,6 +35,7 @@
 
 ---?include=assets/shimizukawa.md
 
++++
 
 ## 私と広島
 
