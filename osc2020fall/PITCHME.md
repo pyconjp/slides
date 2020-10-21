@@ -16,9 +16,19 @@
 
 ---
 
-## Tweets 🐦 👍
+##  撮影📷、ツイート🐦 👍
 
 `#osc20on` / `@takanory`
+
++++
+
+## 最初にお願い
+
+* 顔出し推奨
+* リアクション大きめで
+* どんどん質問してください ‍🙇‍♂️
+  * Zoomのチャット
+  * YouTubeのコメント
 
 +++
 
@@ -26,23 +36,7 @@
 
 * @fab[github] [`github.com/pyconjp/slides`](https://github.com/pyconjp/slides)
 
-+++
-
-## どんどん質問してください ‍🙇‍♂️
-
-* Zoomのチャット
-* YouTubeのコメント
-
 ---?include=assets/takanory.md
-
-+++?image=osc2020hiro/images/hiroshima.png&position=bottom&size=auto 58%
-
-@snap[north span-100]
-## 私と広島
-
-* OCS 2020 Hiroshima に初参加
-* 初広島！（論理）
-@snapend
 
 ---?include=assets/pyconjp2020.md
 
@@ -68,8 +62,9 @@
 
 ## ミーティングにも来てね
 
-* C会場で14:00〜14:45
-* セミナーの質疑応答など
+* D会場で14:00〜14:45
+* セミナーの質疑応答
+* Python Boot Campについてなど
 
 ---
 
@@ -89,8 +84,9 @@
 
 * [`www.python.org/downloads`](https://www.python.org/downloads/)から公式版をインストール
   * WindowsはPATH設定のチェックを忘れずに
-* 最新バージョンは3.8.5
-* 2020年10月に3.9がリリース予定
+* 最新バージョンは3.9.0 / 3.8.6
+  * 2020年10月5日リリース
+  * 3rdパーティパッケージの対応を確認
 
 +++?image=osc2020hiro/images/python-downloads.png&size=auto 100%
 
@@ -621,7 +617,7 @@ $ python3 -m pdb sample.py
 
 ## ミーティングにも来てね
 
-* C会場で14:00〜14:45
+* D会場で14:00〜14:45
 * セミナーの質疑応答など
 
 +++
