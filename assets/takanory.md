@@ -12,7 +12,7 @@
 
 ### Python本書いてます 📚
 
-![書影](assets/images/takanory-books.jpg)
+![書影](assets/images/takanory-books.png)
 
 +++?image=assets/images/pycontourmap.jpg&size=auto 90%
 
