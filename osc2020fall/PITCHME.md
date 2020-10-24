@@ -85,8 +85,8 @@
 * [`www.python.org/downloads`](https://www.python.org/downloads/)から公式版をインストール
   * WindowsはPATH設定のチェックを忘れずに
 * 最新バージョンは3.9.0 / 3.8.6
-  * 2020年10月5日リリース
-  * 3rdパーティパッケージの対応を確認
+  * 3.9.0: 2020年10月5日リリース
+  * サードパーティ製パッケージの対応を確認
 
 +++?image=osc2020hiro/images/python-downloads.png&size=auto 100%
 
@@ -124,7 +124,7 @@
 
 * [`docs.python.org/ja/3/library/venv`](https://docs.python.org/ja/3/library/venv.html)
 * Pythonに標準でついてくる
-* 常に使いましょう
+* 常に使おう
 * プロジェクト単位で使用パッケージを変えられる
 
 +++?image=osc2020hiro/images/venv.png&size=auto 100%
@@ -274,7 +274,7 @@ Successfully installed beautifulsoup4-4.9.1
 
 +++
 
-## パッケージ一覧を再利用
+## パッケージ一覧を再利用(1/2)
 
 * `pip freeze > requirements.txt`
 * requirements.txtファイルをバージョン管理
@@ -285,6 +285,10 @@ Successfully installed beautifulsoup4-4.9.1
 beautifulsoup4==4.8.0
 soupsieve==2.0.1
 ```
+
++++
+
+## パッケージ一覧を再利用(2/2)
 
 * 別の仮想環境でインストール
   * `pip install -r requirements.txt`
@@ -404,12 +408,6 @@ def add(a,b):
 * `flake8 ファイル名`
 
 ```sh
-$ cat sample.py
-from random import *
-
-def add(a,b):
-    c = choice([a, b]) # 意味のない処理
-    return a + b
 $ flake8 sample.py
 sample.py:1:1: F403 'from random import *' used; unable to detect undefined names
 sample.py:3:1: E302 expected 2 blank lines, found 1
@@ -475,7 +473,8 @@ $
 ## コード整形(Black)
 
 * [`black.readthedocs.io`](https://black.readthedocs.io/)
-* 頑固なコードフォーマッター
+* The uncompromising code formatter
+  * 頑固なコードフォーマッター
 * PEP8準拠のコードにしてくれる
 * 設定はほぼなし
   * Blackの流儀に合わせる
@@ -501,10 +500,6 @@ def add(a,b):
 ```
 
 +++?code=osc2020hiro/diff.txt&lang=bash
-
-@snap[north span-100]
-## Blackで差分を確認
-@snapend
 
 +++
 
@@ -610,7 +605,7 @@ $ python3 -m pdb sample.py
 
 ## ありがとうございました 🙇‍♂️
 
-* @fab[twitter] [@shimizukawa](https://twitter.com/shimizukawa)
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
 * @fab[github] [`github.com/pyconjp/slides`](https://github.com/pyconjp/slides)
 
 +++
@@ -628,6 +623,6 @@ $ python3 -m pdb sample.py
 
 ## ありがとうございました 🙇‍♂️
 
-* @fab[twitter] [@shimizukawa](https://twitter.com/shimizukawa)
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
 * @fab[github] [`github.com/pyconjp/slides`](https://github.com/pyconjp/slides)
 
