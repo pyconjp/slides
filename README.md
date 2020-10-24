@@ -4,12 +4,21 @@
 * 主に PyCamp Caravan での発表スライドをまとめる
 
 
+## オープンソースカンファレンス2020 Online/Fall
+
+* イベント: [オープンソースカンファレンス2020 Online/Fall](https://event.ospn.jp/osc2020-online-fall/)
+* 日付: 2020年10月23日(金)、24日(土) 10:00～18:00
+* 発表: [Python開発環境の整え方](https://event.ospn.jp/osc2020-online-fall/session/200253)
+  * 時間: 10月24日(土) 13:00-13:45
+  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020fall
+  * 発表者: 鈴木たかのり
+
 ## オープンソースカンファレンス2020 Online/Hiroshima
 
 * イベント: [オープンソースカンファレンス2020 Online/Hiroshima](https://event.ospn.jp/osc2020-online-hiroshima/)
 * 日付: 2020年9月19日(土) 10:00～18:00
 * 発表: [Python開発環境の整え方](https://event.ospn.jp/osc2020-online-hiroshima/session/173892)
-  * 時間: 27日(土) 13:00-13:45
+  * 時間: 9月19日(土) 13:00-13:45
   * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020hiro
   * 発表者: 清水川貴之
 
