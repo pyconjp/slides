@@ -4,6 +4,15 @@
 * 主に PyCamp Caravan での発表スライドをまとめる
 
 
+## オープンソースカンファレンス2020 Online/Fukuoka
+
+* イベント: [オープンソースカンファレンス2020 Online/Fukuoka](https://event.ospn.jp/osc2020-online-fukuoka/)
+* 日付: 2020年11月28日(土) 10:00～18:00
+* 発表: [Python開発環境の整え方](https://event.ospn.jp/osc2020-online-fukuoka/session/222743)
+  * 時間: 11月28日(土) 15:15-16:00
+  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020fukuoka
+  * 発表者: 寺田　学
+
 ## オープンソースカンファレンス2020 Online/Fall
 
 * イベント: [オープンソースカンファレンス2020 Online/Fall](https://event.ospn.jp/osc2020-online-fall/)
