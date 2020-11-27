@@ -16,6 +16,10 @@
 
 +++
 
+### Podcastやっています。
+
+[terapyon channel](https://podcast.terapyon.net/)
+
 ### Python 本書いてます
 
 ![書影](assets/images/terada-books.png)
