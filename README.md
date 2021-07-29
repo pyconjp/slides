@@ -46,7 +46,7 @@
 * 日付: 2020年4月24日(金) 10:00～18:00 / 4月25日(土) 10:00～17:30
 * 発表: Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～
   * 時間: 24日(金) 16:15 - 17:00
-  * スライド: [osc2020tokyospring.pdf](osc2020tokyospring.pdf/osc2020tokyospring.pdf)
+  * スライド: [osc2020tokyospring.pdf](osc2020tokyospring/osc2020tokyospring.pdf)
   * 発表者: 寺田　学
 
 ## オープンソースカンファレンス2020 Tokyo/Spring
