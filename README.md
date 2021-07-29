@@ -10,7 +10,7 @@
 * 日付: 2020年11月28日(土) 10:00～18:00
 * 発表: [Python開発環境の整え方](https://event.ospn.jp/osc2020-online-fukuoka/session/222743)
   * 時間: 11月28日(土) 15:15-16:00
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020fukuoka
+  * スライド: [osc2020fukuoka.pdf](osc2019do/osc2020fukuoka.pdf)
   * 発表者: 寺田　学
 
 ## オープンソースカンファレンス2020 Online/Fall
@@ -19,7 +19,7 @@
 * 日付: 2020年10月23日(金)、24日(土) 10:00～18:00
 * 発表: [Python開発環境の整え方](https://event.ospn.jp/osc2020-online-fall/session/200253)
   * 時間: 10月24日(土) 13:00-13:45
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020fall
+  * スライド: [osc2020fall.pdf](osc2019do/osc2020fall.pdf)
   * 発表者: 鈴木たかのり
 
 ## オープンソースカンファレンス2020 Online/Hiroshima
@@ -28,7 +28,7 @@
 * 日付: 2020年9月19日(土) 10:00～18:00
 * 発表: [Python開発環境の整え方](https://event.ospn.jp/osc2020-online-hiroshima/session/173892)
   * 時間: 9月19日(土) 13:00-13:45
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020hiro
+  * スライド: [osc2020hiro.pdf](osc2019do/osc2020hiro.pdf)
   * 発表者: 清水川貴之
 
 ## オープンソースカンファレンス2020 Online/Hokkaido
@@ -37,7 +37,7 @@
 * 日付: 2020年6月27日(土) 10:00～18:00
 * 発表: [Python開発環境の整え方](https://event.ospn.jp/osc2020-online-do/session/126701)
   * 時間: 27日(土) 15:15-16:00
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020do
+  * スライド: [osc2020do.pdf](osc2019do/osc2020do.pdf)
   * 発表者: 鈴木たかのり
 
 ## オープンソースカンファレンス2020オンライン Spring
@@ -46,7 +46,7 @@
 * 日付: 2020年4月24日(金) 10:00～18:00 / 4月25日(土) 10:00～17:30
 * 発表: Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～
   * 時間: 24日(金) 16:15 - 17:00
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020tokyospring
+  * スライド: [osc2020tokyospring.pdf](osc2019do/osc2020tokyospring.pdf)
   * 発表者: 寺田　学
 
 ## オープンソースカンファレンス2020 Tokyo/Spring
@@ -57,7 +57,7 @@
 * 日付: 2020年2月21日(金) 10:00～18:00 / 2月22日(土) 10:00～17:30
 * 発表: Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～
   * 時間: TBD
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2020tokyospring
+  * スライド: [osc2020tokyospring.pdf](osc2019do/osc2020tokyospring.pdf)
   * 発表者: 鈴木たかのり
 
 ## オープンソースカンファレンス2019 fukuoka
@@ -66,7 +66,7 @@
 * 日付: 2019年11月9日(土) 10:00-18:00
 * 発表: [Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～](https://www.ospn.jp/osc2019-fukuoka/modules/eguide/event.php?eid=5)
   * 時間: 13:00-13:45
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2019fukuoka
+  * スライド: [osc2019fukuoka.pdf](osc2019do/osc2019fukuoka.pdf)
   * 発表者: 寺田 学
 
 ## オープンソースカンファレンス2019 Hokkaido
@@ -75,7 +75,7 @@
 * 日付: 2019年9月28日(土) 10:00-17:00
 * 発表: [Python言語最新情報 〜モダンな文法を知ってPythonを使いこなそう〜](https://www.ospn.jp/osc2019-shimane/modules/article/article.php?articleid=2)
   * 時間: 14:35-15:05
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2019shimane
+  * スライド: [osc2019shimane.pdf](osc2019do/osc2019shimane.pdf)
   * 発表者: 清水川 貴之
   
 ## オープンソースカンファレンス2019 Hokkaido
@@ -84,7 +84,7 @@
 * 日付: 2019年5月31日(金) 13:00-17:30/2019年6月1日(土) 10:00-18:00
 * 発表: [Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～](https://www.ospn.jp/osc2019-do/modules/eguide/event.php?eid=17)
   * 時間: 14:00-14:45
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2019do
+  * スライド: [osc2019do.pdf](osc2019do/osc2019do.pdf)
   * 発表者: 鈴木たかのり
 * [ライトニングトーク](https://www.ospn.jp/osc2019-do/modules/eguide/event.php?eid=2)
   * 17:10-18:00
@@ -96,7 +96,7 @@
 * 日付: 2019年4月20日(土) 10:00-17:00
 * 発表: [Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～](https://www.ospn.jp/osc2019-okinawa/modules/eguide/event.php?eid=19)
   * 時間: 11:00-12:00
-  * スライド: https://gitpitch.com/pyconjp/slides/master?p=osc2019okinawa
+  * スライド: [osc2019okinawa.pdf](osc2019do/osc2019okinawa.pdf)
   * 発表者: 鈴木たかのり
 * [ライトニングトーク](https://www.ospn.jp/osc2019-okinawa/modules/eguide/event.php?eid=2)
   * 16:10-17:00
