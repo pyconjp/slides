@@ -3,6 +3,97 @@
 * PyCon JP関連のスライドをまとめるリポジトリ
 * 主に PyCamp Caravan での発表スライドをまとめる
 
+## オープンソースカンファレンス2021 Online/Fall
+
+* イベント: [オープンソースカンファレンス2021 Online/Fall](https://event.ospn.jp/osc2021-online-fall//)
+* 日付: 2021年10月22日(金)、23日(土) 10:00～18:00
+* 発表:
+  * [本番運用を想定したDjango settings.pyの書き方入門](https://event.ospn.jp/osc2021-online-fall/session/405791)
+    * 時間: 10月23日(土) 10:00-10:45
+    * スライド: [本番運用を想定したDjango settings.pyの書き方入門](https://speakerdeck.com/ryu22e/ben-fan-yun-yong-woxiang-ding-sitadjango-settings-dot-pyfalseshu-kifang-ru-men-osc-fall-2021-version)
+    * 発表者: 筒井 隆次
+  * [あなたの街でもPython広めませんか？](https://event.ospn.jp/osc2021-online-fall/session/405791)
+    * 時間: 10月23日(土) 10:00-10:45
+    * スライド: [あなたの街でもPython広めませんか？](https://docs.google.com/presentation/d/1k6fqZ55ulGV7LdEz06czksKY0beTtb25ZjnrLwIq8rU/edit?usp=sharing)
+    * 発表者: 塚本 佳康
+
+## オープンソースカンファレンス2021 Online/Hiroshima
+
+* イベント: [オープンソースカンファレンス2021 Online/Hiroshima](https://event.ospn.jp/osc2021-online-hiroshima/)
+* 日付: 2021年9月18日(土) 10:00～18:00
+* 発表:
+  * [Batteries included ~ 調査、デバッグに役立つPythonの標準機能 ~](https://event.ospn.jp/osc2021-online-hiroshima/session/364728)
+    * 時間: 9月18日(土) 10:00-10:45
+    * スライド: [Batteries included 調査、デバッグに役立つPythonの標準機能](https://docs.google.com/presentation/d/1ig_iTW2zCCicWU5i6V51w64-ZtlHsMmE2bsN8yyXOjU/edit#slide=id.p)
+    * 発表者: 陶山 嶺
+  * [あなたの街でもPython広めませんか？](https://event.ospn.jp/osc2021-online-hiroshima/session/364728)
+    * 時間: 9月18日(土) 10:00-10:45
+    * スライド: [あなたの街でもPython広めませんか？](https://docs.google.com/presentation/d/1OOHloGMQ8alB0X1zy9iU_h_Iojan2hwgOrkh0HmFx4E/edit?usp=sharing)
+    * 発表者: 塚本 佳康
+* [ライトニングトーク](https://event.ospn.jp/osc2021-online-hiroshima/session/432130)
+  * 時間: 9月18日(土) 12:00-12:45
+  * スライド: [PyCon JP 2021 スタッフからお知らせ](https://drive.google.com/file/d/1TNqeFyZKwQNOrrAGWHNTTHXiWFOTK-v7/view)
+  * 発表者: Peacock
+
+## オープンソースカンファレンス2021 Online/Kyoto
+
+* イベント: [オープンソースカンファレンス2021 Online/Kyoto](https://event.ospn.jp/osc2021-online-kyoto/)
+* 日付: 2021年7月30日(金)、31日(土) 10:00～18:00
+* 発表:
+  * [Playwright for PythonではじめるE2Eテスト](https://event.ospn.jp/osc2021-online-kyoto/session/341018)
+    * 時間: 7月31日(土) 14:00-14:45
+    * スライド: [Playwright for PythonではじめるE2Eテスト](https://speakerdeck.com/pep299/lets-start-e2e-test-with-playwright-for-python)
+    * 発表者: Pep299
+  * [あなたの街でもPython広めませんか？](https://event.ospn.jp/osc2021-online-kyoto/session/341018)
+    * 時間: 7月31日(土) 14:00-14:45
+    * スライド: [あなたの街でもPython広めませんか？](https://docs.google.com/presentation/d/1i2uuiBKcsI4wru_HcwzKq6ZzANF8pSbWeDEc-k0UyG8/edit)
+    * 発表者: 塚本 佳康
+* [ライトニングトーク](https://event.ospn.jp/osc2021-online-kyoto/session/380275)
+  * 時間: 7月31日(土) 12:00-12:45
+  * スライド: [みんなでつくる PyCon JP](https://docs.google.com/presentation/d/1-OyKRtbvhE8Ao0B5p--v-25WaooLVOAtnYLfMo_iHAM/edit#slide=id.ge5ff1e39f8_0_108)
+  * 発表者: Iosif Takakura
+
+## オープンソースカンファレンス2021 Online/Hokkaido
+
+* イベント: [オープンソースカンファレンス2021 Online/Hokkaido](https://event.ospn.jp/osc2021-online-do/)
+* 日付: 2021年6月26日(土) 10:00～18:00
+* 発表:
+  * [Pythonではじめる今風な型プログラミング](https://event.ospn.jp/osc2021-online-do/session/316953)
+    * 時間: 6月26日(土) 15:00-15:45
+    * スライド: [Pythonではじめる今風な型プログラミング](https://speakerdeck.com/peacock0803sz/osc21do)
+    * 発表者: Peacock
+  * [あなたの街でもPython広めませんか？](https://event.ospn.jp/osc2021-online-do/session/316953)
+    * 時間: 6月26日(土) 15:00-15:45
+    * スライド: [あなたの街でもPython広めませんか？](https://docs.google.com/presentation/d/1fMYTYa_zyaKYpR271XWqs7KJxzDjh9cK7W8wkJwLj5E/edit?usp=sharing)
+    * 発表者: 塚本 佳康
+
+## オープンソースカンファレンス2021 Online/Nagoya
+
+* イベント: [オープンソースカンファレンス2021 Online/Nagoya](https://event.ospn.jp/osc2021-online-nagoya/)
+* 日付: 2021年5月29日(土) 10:00～18:00
+* 発表:
+  * [本番運用を想定したDjango settings.pyの書き方入門](https://event.ospn.jp/osc2021-online-nagoya/session/312812)
+    * 時間: 5月29日(土) 16:00-16:45
+    * スライド: [本番運用を想定したDjango settings.pyの書き方入門](https://speakerdeck.com/ryu22e/ben-fan-yun-yong-woxiang-ding-sitadjango-settings-dot-pyfalseshu-kifang-ru-men)
+    * 発表者: 筒井 隆次
+  * [あなたの街でもPython広めませんか？](https://event.ospn.jp/osc2021-online-nagoya/session/312812)
+    * 時間: 5月29日(土) 16:00-16:45
+    * スライド: [あなたの街でもPython広めませんか？](https://docs.google.com/presentation/d/1SCo_CH2jrBS8JLJZNbKQeqJAH6LfOVLrKLLvAoXmmeQ/edit#slide=id.gc6fa3c898_0_0)
+    * 発表者: 塚本 佳康
+
+## オープンソースカンファレンス2021 Online/Spring
+
+* イベント: [オープンソースカンファレンス2021 Online/Spring](https://event.ospn.jp/osc2021-online-spring/)
+* 日付: 2021年3月5日(金)、6日(土) 10:00～18:00
+* 発表:
+  * [PyCon JPのスタッフ活動の中でこんなふうにPython使ってます](https://event.ospn.jp/osc2021-online-spring/session/274261)
+    * 時間: 3月6日(土) 15:00-15:45
+    * スライド: [PyCon JPのスタッフ活動の中でこんなふうにPython使ってます](https://ftnext.github.io/2021_slides/osc_spring_Mar/python_as_pyconjp_staff.html#/1)
+    * 発表者: nikkie
+  * [Python(Dash/Cytoscape)を使ったNetwork Auto Visualization](https://event.ospn.jp/osc2021-online-spring/session/274261)
+    * 時間: 3月6日(土) 15:00-15:45
+    * スライド: [Network Auto Visualization by Dash/Cytoscape](https://ainamori.github.io/SlideWithGitHubPages/?slide=osc/network-visualize.md)
+    * 発表者: 稲森 景
 
 ## オープンソースカンファレンス2020 Online/Fukuoka
 
