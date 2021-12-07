@@ -3,6 +3,20 @@
 * PyCon JP関連のスライドをまとめるリポジトリ
 * 主に PyCamp Caravan での発表スライドをまとめる
 
+## オープンソースカンファレンス2021 Online/Fukuoka
+
+* イベント: [オープンソースカンファレンス2021 Online/Fukuoka](https://event.ospn.jp/osc2021-online-fukuoka/)
+* 日付: 2021年11月20日(土) 10:00～18:00
+* 発表:
+  * [文に立ち返って再入門するPython](https://event.ospn.jp/osc2021-online-fukuoka/session/408197)
+    * 時間: 11月20日(土) 15:00-15:45
+    * スライド: [文に立ち返って再入門するPython](https://ftnext.github.io/2021_slides/osc_fukuoka_Nov/revisit_python_from_statements.html#/)
+    * 発表者: nikkie
+  * [パッケージ管理ツール poetry が依存関係を解決するアルゴリズムについて](https://event.ospn.jp/osc2021-online-fukuoka/session/408197)
+    * 時間: 11月20日(土) 15:00-15:45
+    * スライド: [パッケージ管理ツール poetry が依存関係を解決するアルゴリズムについて](https://speakerdeck.com/kyomukyomupurin/fukuoka)
+    * 発表者: 村上 涼
+
 ## オープンソースカンファレンス2021 Online/Fall
 
 * イベント: [オープンソースカンファレンス2021 Online/Fall](https://event.ospn.jp/osc2021-online-fall//)
