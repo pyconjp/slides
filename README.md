@@ -3,6 +3,39 @@
 * PyCon JP関連のスライドをまとめるリポジトリ
 * 主に PyCamp Caravan での発表スライドをまとめる
 
+## オープンソースカンファレンス2022 Online/Spring
+
+* イベント: [オープンソースカンファレンス2022 Online/Spring](https://event.ospn.jp/osc2022-online-spring/)
+* 日付: 2022年3月11日(金)、12日(土) 10:00～18:00
+* 発表:
+  * [『サイバーセキュリティプログラミング 第2版』を翻訳した話](https://event.ospn.jp/osc2022-online-spring/session/496721)
+    * 時間: 3月12日(土) 13:00-13:45
+    * スライド: [『サイバーセキュリティプログラミング 第2版』を翻訳した話](https://speakerdeck.com/kyomukyomupurin/open-source-conference-2022-online-spring)
+    * 発表者: 村上 涼
+  * [Raspberry Pi で温湿度センサーDHT11を使って室内温湿度を計測しslack通知をしてみた](https://event.ospn.jp/osc2022-online-spring/session/496721)
+    * 時間: 3月12日(土) 13:00-13:45
+    * スライド: [Raspberry Pi で温湿度センサーDHT11を使って室内温湿度を計測しslack通知する](https://docs.google.com/presentation/d/10ZYO5YE-m_qi56wVmlfr9LmG3AiP1_Pig2PkOiDsLfg/edit?usp=sharing)
+    * 発表者: 片寄 里菜（selina）
+* ミーティング:
+  * [Python Boot Camp オンライン相談会](https://event.ospn.jp/osc2022-online-spring/session/531782)
+    * 時間: 3月12日(土) 14:00-14:45
+    * スライド: [あなたの街でもPython広めませんか？](https://docs.google.com/presentation/d/1rrE75YvgsLNyQNvLftg19wka8C_2te4FqYMEQv-nBRg/edit?usp=sharing)
+    * 発表者: 筒井 隆次、小林 智博、塚本 佳康、片寄 里菜（selina）
+
+## オープンソースカンファレンス2022 Online/Osaka
+
+* イベント: [オープンソースカンファレンス2022 Online/Osaka](https://event.ospn.jp/osc2022-online-osaka/)
+* 日付: 2022年1月29日(土) 10:00～18:00
+* 発表:
+  * [パッケージ管理ツール poetry が依存関係を解決するアルゴリズムについて](https://event.ospn.jp/osc2022-online-osaka/session/483612)
+    * 時間: 1月29日(土) 13:00-13:45
+    * スライド: [Python のユニットテスト用ライブラリ Hypothesis の紹介](https://speakerdeck.com/kyomukyomupurin/open-source-conference-2022-online-osaka)
+    * 発表者: 村上 涼
+  * [あなたの街でもPython広めませんか？](https://event.ospn.jp/osc2022-online-osaka/session/4836121)
+    * 時間: 1月29日(土) 13:00-13:45
+    * スライド: [あなたの街でもPython広めませんか？](https://docs.google.com/presentation/d/16rXvb1vk3HhyLPPuWByWJEjc0GAahYhPcutzJ4TNeeA/edit#slide=id.gc6fa3c898_0_0)
+    * 発表者: 塚本 佳康
+
 ## オープンソースカンファレンス2021 Online/Fukuoka
 
 * イベント: [オープンソースカンファレンス2021 Online/Fukuoka](https://event.ospn.jp/osc2021-online-fukuoka/)
